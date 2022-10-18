@@ -1,0 +1,1 @@
+//! pretty-print-json v2.0.1 ~~ https://pretty-print-json.js.org ~~ MIT License

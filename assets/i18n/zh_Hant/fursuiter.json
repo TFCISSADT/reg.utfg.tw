@@ -1,0 +1,141 @@
+{
+    "serviceName": "獸裝",
+    "serviceTitle": "獸裝相關",
+    "payment": {
+        "changeRoomDescription": "毛毛更衣室費用"
+    },
+    "fields": {
+        "changeRoom": {
+            "title" : "毛毛更衣室",
+            "changeRoomPrice": "毛毛更衣室收費",
+            "changeRoomSocialLink": "獸裝社群網站連結[圖片連結亦可](必填)"
+        },
+        "fursuiter": {
+            "basicInfo": "基本資料*",
+            "listTitle" : "獸裝(毛毛)出沒名單",
+            "myCharacters" : "我的獸裝",
+            "myAllCharacters" : "已登記的獸裝",
+            "name": "名稱",
+            "owner" : "持有者",
+            "tags": "標籤(最多2個)*",
+            "description" : "說明",
+            "status" : "狀態",
+            "image" : "獸裝圖片",
+            "uploadImage" : "點此選擇獸裝圖片",
+            "imageURL" : "圖片網址",
+            "socialMediaLink" : "社群網站連結網址(非必填)",
+            "crop": "裁切",
+            "canel": "取消",
+            "croppedResult" : "擷取結果",
+            "empty" : "尚未新增任何獸裝"
+        }
+    },
+    "mails": {
+        "changeRoomPaid": {
+            "title": "<<標題>>",
+            "subject": "毛毛更衣室付款成功",
+            "changeRoomPaidText": "毛毛更衣室登記付款成功, {userNickname}",
+            "changeRoomData": "付款資訊",
+            "thanksForRegistered": "感謝登記使用毛毛更衣室，我們已收到您的付款，我們期待在本屆 {eventName} 見到您。",
+            "emailReason": "你收到這封郵件的原因是這個電子郵件地址請求在 UTFG 報名系統登記使用毛毛更衣室，如果有任何問題，請與 UTFG 活動官方聯絡。"
+        }
+    },
+    "fursuiter": {
+        "tag": {
+            "dog": "狗",
+            "wolf": "狼",
+            "dragon": "龍",
+            "sergal": "薩格爾",
+            "lion": "獅子",
+            "tiger": "老虎",
+            "smilodon": "劍齒虎",
+            "cat": "貓",
+            "fox": "狐狸",
+            "squirrel": "松鼠",
+            "canine": "犬科",
+            "feline": "貓科",
+            "leopard": "豹",
+            "cheetah": "獵豹",
+            "panther": "黑豹",
+            "jaguar": "美洲豹",
+            "bird": "鳥",
+            "hyena": "鬣狗",
+            "westernDragon": "西方龍",
+            "easternDragon": "東方龍",
+            "herbivore": "草食動物",
+            "deer": "鹿",
+            "goat": "山羊",
+            "rabbit": "兔子",
+            "horse": "馬",
+            "bear": "熊",
+            "snowLeopard": "雪豹",
+            "coyote": "郊狼",
+            "lynx": "山貓",
+            "raccoon": "浣熊",
+            "otter": "水獺",
+            "weasel": "黃鼠狼",
+            "pig": "豬",
+            "mouse": "老鼠",
+            "hamster": "倉鼠",
+            "hedgehog": "刺蝟",
+            "badger": "獾",
+            "skunk": "臭鼬",
+            "reptile": "爬蟲類",
+            "dinosaur": "恐龍",
+            "crocodile": "鱷魚",
+            "turtle": "烏龜",
+            "snake": "蛇",
+            "lizard": "蜥蜴",
+            "amphibian": "兩棲類",
+            "fish": "魚",
+            "shark": "鯊魚",
+            "whale": "鯨魚",
+            "dolphin": "海豚",
+            "seal": "海豹",
+            "cow": "牛",
+            "hawk": "鷹",
+            "kirin": "麒麟",
+            "unicorn": "獨角獸",
+            "gryphon": "獅鷲獸",
+            "panda": "熊貓",
+            "redPanda": "小熊貓",
+            "dutchAngelDragon": "達馳天使龍",
+            "protogen": "Protogen",
+            "oceanCreature": "海洋生物",
+            "hybridCreature": "混種生物",
+            "fantasyCreature": "奇幻生物"
+        },
+        "status": {
+            "Submitted": "提交等待審核",
+            "Approved": "通過",
+            "Declined": "未通過",
+            "Deprecated": "棄用",
+            "Reserved": "保留"
+        },
+        "messages" : {
+            "applyForUpdateSuccessful" : "申請更新 成功",
+            "applyForCreateSuccessful" : "申請建立 成功"
+        }
+    },
+    "changeRoom" : {
+        "changeRoom" : "毛毛更衣室",
+        "notice" : "注意事項",
+        "notURL": "獸裝社群網站連結不是一個有效的網址",
+        "ToS" : "► 更衣室使用資格僅供毛毛扮演者購買，購買時請提供毛毛社群帳號或照片連結供參考。\n► 使用資格綁定參加者而非毛毛，若同一位參加者有多套獸裝換穿，請購買一次即可。\n► 若是請他人幫忙穿毛的情況，則需由著裝者(毛替)購買更衣室使用資格。\n► 因使用空間有限，協助者(馬內)請勿進出更衣室。\n► 更衣室使用資格可預先線上購買或活動當天購買。使用時間為活動三天全程，實際時間請以活動現場開放時間為準。\n► 除參加者無法到場的情況外，更衣室購買後無法退費。如不確定是否需要使用，可於活動現場再決定是否購買。\n► 更衣室僅供扮演者更衣、更換獸裝、脫頭休息、暫放獸裝或行李...等用途。禁止長時間占用、就寢或進行任何不符使用方式的行為。\n► 活動方對更衣室內行李物品將不負保管責任，貴重物品請自行帶走，行李不可寄放過夜。更衣室內嚴禁攝影或拍照。\n► 更衣室為共同使用空間，飲料零食請適量取用，並請休息足夠的扮演者能禮讓給有需要的同好使用。\n► 任何經現場工作人員判定違反規定或影響他人使用的行為，將影響相關參加者使用更衣室的權利。"
+    },
+    "actions":{
+        "reselectImage" : "重新選擇圖片"
+    },
+    "errors": {
+        "notAFursuiter": "此服務僅提供給毛毛扮演者",
+        "tooManyFursuits": "登記的毛毛數量已達系統上限",
+        "tooManyTags": "標記的交簽署已達系統上限",
+        "cannotRetryPayment": "目前無法重試付款",
+        "notFursuitOwner": "不可修改非自己擁有的毛毛資料",
+        "fursuitTagNotFound": "此標籤不存在",
+        "imageFileTooLarge": "上傳的圖片檔案大小過大",
+        "missingImageFile": "你必須上傳一張圖片",
+        "wrongImageDimension": "圖片大小應為512*512",
+        "wrongImageFormat": "圖片格式錯誤"
+    }
+}
