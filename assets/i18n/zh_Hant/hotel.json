@@ -1,0 +1,97 @@
+{
+    "serviceName": "飯店",
+    "hotel": {
+        "notice": {
+            "Title": "Hotel Title",
+            "Content": "Hotel Content",
+            "timeContent1": "訂房開放時間: 2025/XX/XX XX:XX (UTC+08:00)",
+            "timeContent2": "",
+            "roomsrefbutton": "訂房資訊",
+            "roomsrefurl": "https://www.utfg.tw",
+            "endTitle": "2025 年度訂房已經結束",
+            "endContent": "如有任何問題，請洽福容飯店麗寶樂園或 UTFG 官方"
+        },
+        "name": {
+            "sheraton": {
+                "code1": "豪華客房",
+                "hotelTOS": "► TOS"
+            }
+        }
+    },
+    "name": {
+        "hotel": {
+            "sheraton": "喜來登大飯店"
+        }
+    },
+    "errors": {
+        "noAvailableRoomTypes": "無房型可選擇"
+    },
+    "fields": {
+        "registrationAgreements": {
+            "title": "訂房須知與條款",
+            "hotelNotice": "按下我同意代表您已詳細閱讀、瞭解並同意以上條約與規則。"
+        },
+        "reservationTitle": "預定客房",
+        "selectRoomType": {
+            "title": "選擇類型"
+        },
+        "duringDate": "選擇日期區間",
+        "reserveInformation": "訂房資訊",
+        "reservationOccupantNum": "人數",
+        "period": "區間",
+        "roomType": "房型",
+        "checkinDate": "入住日期",
+        "checkoutDate": "退房日期",
+        "userIdentificationNumber": {
+            "title": "完整身分證字號 (外籍人士請填完整護照號碼)",
+            "description": "僅供飯店使用"
+        },
+        "quiz": "請回答以下問題",
+        "orderAmount": {
+            "title" : "房價預估總額",
+            "description" : "此為預估價格，實際價格以飯店提供之訂房同意書為準。"
+        },
+        "perNight" : "每晚",
+        "selectedRoomType": "已選擇的房型",
+        "showSoldOutRooms" : "顯示已售完之房型"
+    },
+    "room": {
+        "name": {
+            "normal": "一般房",
+            "silent": "寧靜房"
+        }
+    },
+    "mails": {
+        "completed": {
+            "subject": "訂房成功",
+            "completedText": "訂房成功, {userNickname}",
+            "thanksForReservation": "感謝訂房，我們期待在本屆 {eventName} 見到您。",
+            "reservationData": "訂房資料",
+            "emailReason": "你收到這封郵件的原因是這個電子郵件地址在 UTFG 訂房系統預定成功，如果有任何問題，請與 UTFG 活動官方聯絡。"
+        }
+    },
+    "messages": {
+        "completed": "已完成訂房",
+        "reserveCompleted": "您已完成訂房，若有問題請聯絡福容飯店淡水漁人碼頭。",
+        "pending": "訂房資料處理中",
+        "reservePending": "訂房資料處理中，後續請檢查電子信箱內來自福容飯店之確認信。",
+        "noSelectablePeriods" : "無可選區間",
+        "disappearedRoomMeansSoldOut" : "未出現之房型表示已售完",
+        "roomTypesLoading" : "可選房型讀取中",
+        "allRoomTypesSoldOut" : "無符合條件之房型或已售完"
+    },
+    "status": {
+        "pending": "處理中",
+        "complete": "已完成",
+        "soldOut" : "已售完",
+        "created" : "已建立",
+        "refunded" : "已退款",
+        "reserved" : "保留"
+    },
+    "day":{
+        "3":"三天兩夜",
+        "4":"四天三夜",
+        "5":"五天四夜",
+        "6":"六天五夜"
+    }
+}

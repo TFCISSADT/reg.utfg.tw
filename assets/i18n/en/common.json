@@ -1,0 +1,129 @@
+{
+    "systemName": "UTFG Registration System",
+    "events": {
+        "UTFG2025": {
+            "title": "UTFG 2025 - School Carnival",
+            "subtitle": "",
+            "registrationToS": "► ToS",
+            "registrationNotice": "By registering for this event, you acknowledge that you have read, understood, and agreed to the above terms and conditions, and that UTFG reserves the right to disqualify you from participation in the event of non-compliance.",
+            "enum": {
+                "registrationFoodTickets": {
+                    "週五自助餐 (午餐)": "Hotel Buffet Voucher - Friday Lunch NT$620",
+                    "週五自助餐 (晚餐)": "Hotel Buffet Voucher - Friday Dinner NT$620",
+                    "週六自助餐 (午餐)": "Hotel Buffet Voucher - Saturday Lunch NT$620",
+                    "週六自助餐 (晚餐)": "Hotel Buffet Voucher - Saturday Dinner NT$620"
+                }
+            }
+        }
+    },
+    "actions": {
+        "create": "Create",
+        "read": "Read",
+        "update": "Update",
+        "delete": "Delete",
+        "cancel": "Cancel",
+        "confirm": "Confirm",
+        "close": "Close",
+        "next": "Next",
+        "prev": "Prev",
+        "edit": "Edit",
+        "backToMainPage": "Back to Main Page",
+        "back": "Back",
+        "clear": "Clear",
+        "view": "View",
+        "send": "Send",
+        "select": "Select",
+        "search": "Search",
+        "action": "Edit",
+        "buy": "Purchase",
+        "apply": "Apply",
+        "open": "Open",
+        "add": "Add",
+        "doConfirm":"Are you sure?"
+    },
+    "values": {
+        "none": "No registration data",
+        "noneBuy": "Not Yet Purchased",
+        "3days": "3-Day",
+        "days": "Day"
+    },
+    "errors": {
+        "unexcepted": "An unknown error occurred, please try again later, if the error persists, please contact the event organizers.",
+        "internalAuthenticationError": "Internal verification error, please check if the settings are correct.",
+        "unauthorized": "You have not yet logged in, please log in first and then proceed.",
+        "missingInternalLabel": "You do not have permission to use this feature.",
+        "invalidRecaptchaResponse": "Captcha verification failed, please wait before trying again.",
+        "insufficientPermission": "Insufficient authority",
+        "notFound": "This data is not found, please make sure it exists.",
+        "serviceUnavailable": "The service is temporarily unavailable, please try again later. If the error persists, please contact the event organizer.",
+        "eventNotFound": "Can't find this event, please confirm and try again.",
+        "notRegistered": "You have not yet registered for the event, please register first before proceeding.",
+        "eventArchived": "This event has been archived and the data cannot be changed.",
+        "imATeapot": "Your account triggered the security mechanism of the system. You should not be here.",
+        "invalidQuizAnswers": "Wrong random quiz answer, please check and try again.",
+        "accountRestricted": "Your account has been restricted from using this service. Please contact UTFG officials if you have any concerns.",
+        "paymentServiceUnavailable": "The payment service is temporarily unavailable, please try again later. If the error persists, please contact the event official.",
+        "notFursuiter": "You have not yet submitted to the Fursuit Roster, please do so and wait for approval before proceeding."
+    },
+    "levels": {
+        "UTFG2025": {
+            "WG": {
+                "title": "Winged Guardian",
+                "subtitle": "Honor Sponsor, priority reservation for hotel room, 3-day con pass, special gifts and treatment.",
+                "description": "",
+                "benefits": "Three days pass\nHotel dining discount\nCon badge\nLanyard\nCon book\nMembership button\nMembership ribbon\nDrawstring bag\nCon poster\nCon T-shirt\nSticker set\nSponsor lanyard\nSponsor metal pin\nDnD dice set\nLeather pouch\nLeather handbook\nFursuit photo booth priority\nSkip the line for badge pick-up\nThank you credits\nSkip the line for Dealers Den\nSkip the line for official events\nReserved front-row seat for official events\nReserved front-row spot for fursuit group photo\nStriking badge and lanyard colors\nPriority reservation for a hotel room\nFree fursuit changing room\nPoint collection activity gift\nHonor sash\nYCH LED badge\nFree theme park 2-day pass\nThank you card from the conchair\nGift box wrapping"
+            }
+        }
+    },
+    "buttons": {
+        "support": "Support",
+        "aboutWebsite": "About website",
+        "languages": "Languages",
+        "logout": "Logout"
+    },
+    "fields": {
+        "common": {
+            "createdAt": "Created at",
+            "createdBy": "Creator",
+            "updatedAt": "Updated at",
+            "updatedBy": "Updater",
+            "deletedAt": "Deleted at",
+            "deletedBy": "Deleted by",
+            "expiredAt": "Expired at",
+            "remarks": "Remarks",
+            "status": "Status",
+            "actions": "Actions",
+            "userPermissions": "User Authorization",
+            "qrcode": "QR Code"
+        },
+        "audit": {
+            "itemName": "Audit log",
+            "auditID": "Audit ID",
+            "auditOperation": "Operation",
+            "auditTarget": "Target",
+            "auditTargetID": "Target ID",
+            "auditDataAfterOperation": "Data after operation"
+        },
+        "dashboard": {
+            "dashboardTitle": "Summary",
+            "dashboardfielled": "Registered events"
+        },
+        "pager": {
+            "total": "Total",
+            "items": "items",
+            "displaying": "Displaying"
+        }
+    },
+    "mails": {
+        "common": {
+            "buttonInvalid": "If the button above is not clickable, please copy this address to the browser address bar"
+        }
+    },
+    "messages": {
+        "createSuccessful": "Create Success",
+        "updateSuccessful": "Update Success",
+        "deleteSuccessful": "Delete Success",
+        "pleaseAdjustDeviceBrightness": "Please adjust device brightness to scan.",
+        "linked" : "Linked"
+    }
+}

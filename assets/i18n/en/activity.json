@@ -1,0 +1,41 @@
+{
+    "serviceName": "Theme Activities And Tasks",
+    "serviceTitle": "Theme Activities And Tasks",
+
+    "activityStatus": {
+        "submitted": "Submitted",
+        "checkedIn": "Checked-In",
+        "checkedOut": "Checked-Out",
+        "lastRecordDeleted": "Last record deleted"
+    },
+
+    "errors": {
+        "notFound": "Data not found",
+        "badgeUidNotFound": "Card ID not found",
+        "userNotFound": "User not found",
+        "underageNotAllowed": "No minors allowed",
+        "outOfActiveTime": "Out of active time",
+        "reachedMaxSubmitOrHeadcountLimit": "Maxiimum headcount or report count reached",
+        "onlyPriorityLevelsAllowed": "Only priority levels are allowed to enter",
+        "noFursuitLinkedToUser": "No fursuit linked to user",
+        "boatScheduleNotFound": "Target boat not found",
+        "boatReservationNotFound": "Boat ticket not found",
+        "registrationNotPaid": "Registration payment not finished",
+        "notSignedUpForChangeRoom": "Not signed up for change room",
+        "notIncludedInActivity": "Not included in the activity"
+    },
+
+    "userActivityStatusType": {
+        "checkedIn": "Checked-In",
+        "checkedOut": "Checked-Out",
+        "autoCheckedOut": "Auto Checked-Out",
+        "noRecord": "No record found"
+    },
+
+    "themes": {
+        "DJ": "DJ Party"
+    },
+    "area": {
+        "UTFG2025_Hall ": "UTFG 2025 Hall"
+    }
+}

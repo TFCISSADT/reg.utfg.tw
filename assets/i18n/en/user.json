@@ -1,0 +1,238 @@
+{
+    "serviceName": "User",
+    "mails": {
+        "emailVerification": {
+            "title": "UTFG - Email Verification",
+            "content": "Please click on the following link to verify your email address:\n{url}"
+        },
+        "resetPassword": {
+            "title": "Password Reset",
+            "content": "Please click on the following link to reset your password:\n{url}",
+            "buttonInvalid": "If the button above cannot be clicked, please copy this address to your browser's address bar",
+            "emailReason": "You are receiving this email because a password reset was requested for this email in the UTFG registration system. If you have any questions, please contact the UTFG official organizers.",
+            "subject": "Reset Password",
+            "requestRecevied": "We have received your request to reset your password for the UTFG registration system. Please reset your password via the button below.",
+            "buttonText": "Reset Password"
+        },
+        "verification": {
+            "subject": "Email Verification",
+            "title": "Email Verification",
+            "requestRecevied": "We received your request to sign up for the UTFG registration system. Please verify your email address by clicking the button below.",
+            "buttonText": "Verify Email",
+            "buttonInvalid": "If the button above cannot be clicked, please copy this address to your browser's address bar",
+            "emailReason": "You are receiving this email because your email address was used to register for an account in the UTFG registration system. If you have any questions, please contact the official organizers of UTFG."
+        }
+    },
+    "sms": {
+        "smsVerification": "Hello, your UTFG registration system validation code is: {code}",
+        "verification": "Hello, your UTFG registration system verification code is: {code}"
+    },
+    "actions": {
+        "updateBasicInfo": "Update Basic Information",
+        "updatePassword": "Update Password",
+        "connect": "Connect",
+        "login": "Login",
+        "loginNow": "Login Now",
+        "register": "Register for UTFG Account",
+        "loginWithGoogle": "Sign in with Google",
+        "verifyPhone": "Verify",
+        "resendPhoneVerificationCode": "Resend Phone Verification Code",
+        "sendVerifyEmail": "Resend verification email",
+        "disconnect": "Unbind"
+    },
+    "messages": {
+        "basicInfoUpdateSuccessful": "Updated basic information successfully!",
+        "passwordUpdateSuccessful": "Updated password successfully!",
+        "resetPasswordRequestReceived": "If the email address is in our database, you will receive a reset letter shortly.",
+        "verifyingPasswordResetRequest": "Verifying",
+        "verifyingEmail": "Verifying Email",
+        "passwordResetSuccessful": "Password Reset Succeeded.",
+        "verifyingPhone": "Verifying Phone",
+        "verifyEmailSent": "Verification email sent",
+        "oauthUnbound": "Unbind Success",
+        "oauthBound": "Bind Success",
+        "userEditBasicInfoNotice": "To edit basic information, please contact us using the official Email."
+    },
+    "errors": {
+        "emailOrPasswordIncorrect": "Wrong email or password, please check and re-enter",
+        "userDisabled": "Your account has been deactivated, please contact UTFG Official",
+        "emailNotVerified": "Your email address has not been verified, please check your inbox for the verification email",
+        "phoneNotVerified": "Your cell phone number has not been verified, please refer to your email inbox to receive the verification email",
+        "authSystemError": "System error, please try again later",
+        "refreshTokenInvalid": "Your login has expired, please login again",
+        "duplicateUserEmail": "This email address is already taken",
+        "duplicateUserPhone": "This phone number is already taken",
+        "emailVerificationTokenExpired": "Verification link expired, please request a new verification email",
+        "smsVerificationTokenExpired": "Verification code expired, please request a new verification messages",
+        "passwordResetTokenExpired": "Password reset link, please request a new password reset",
+        "groupUserAlreadyExists": "This user is already in the group",
+        "userPermissionAlreadyExists": "This user already has the permission",
+        "groupPermissionAlreadyExists": "This group already has the permission",
+        "userLabelAlreadyExists": "This user label already exists",
+        "userInternalLabelAlreadyExists": "This user internal label already exists",
+        "oldPasswordIncorrent": "The password change failed, old password incorrect",
+        "smsVerificationAttemptsExceeded": "You've requested the maximum number of phone verification codes today, please try again later",
+        "passwordResetAttemptsExceeded": "You've requested the maximum number of password resets today, please try again later",
+        "userNotFoundOrVerified": "This user cannot be found, or this user has been verified",
+        "userNotFound": "This user is not found",
+        "emailVerificationAttemptsExceeded": "You've requested the maximum number of email verifications today, please try again later",
+        "userEmailInBlacklist": "This email has been deactivated, please contact UTFG official",
+        "userPhoneInBlacklist": "This cell phone number has been deactivated, please contact UTFG Official",
+        "passwordLengthIncorrect": "Password should be longer than 8 characters",
+        "confirmPasswordIncorrect": "Confirm Password is incorrect",
+        "oauthExists": "This third-party account has already been used, if you want to link to this account, please unbind it first, or use another account to link to it",
+        "oauthNotExists": "This third-party account is not yet linked, please register or bind it first",
+        "oauthFailed": "Third-party login failed. Please try again later",
+        "oauthAlreadyBound": "You have already bound to this service, please unbind it first",
+        "oauthNotBound": "You are not yet bound to this service"
+    },
+    "fields": {
+        "userPasswordResetToken": {
+            "userPasswordResetTokenID": "Password Reset Token ID",
+            "userPasswordResetToken": "Password Reset Token",
+            "itemName": "Password Reset Token"
+        },
+        "oauth": {
+            "oauthService": "OAuth Service",
+            "oauthID": "OAuth ID",
+            "oauthServiceUserID": "OAuth Service User ID",
+            "itemName": "Third-Party Login"
+        },
+        "submenu": {
+            "Account": "Account",
+            "LoginandSecurity": "Login and Security"
+        },
+        "user": {
+            "itemName": "User",
+            "userID": "User ID",
+            "userEmail": "Email",
+            "userEmailConfirm": "Confirm Email",
+            "userPassword": "Password",
+            "userPhone": "Phone Number",
+            "userIdentificationNumber": "Last 5 digits of the Passport Number",
+            "userRealname": "Legal Name",
+            "userNickname": "Furry Name",
+            "userEnabled": "Enable",
+            "userBirthday": "Birthday",
+            "userCountry": "Country",
+            "userGender": "Gender",
+            "userLanguage": "Language",
+            "userEmailVerifiedAt": "Email Verified At",
+            "userPhoneVerifiedAt": "Phone Verified At",
+            "submenuAccount": "Account",
+            "submenuLoginandSecurity": "Login and Security",
+            "accountImage": "Account Image",
+            "accountInformation": "Account Information",
+            "basicInformation": "Basic Information",
+            "oldPassword": "Old password",
+            "newPassword": "New Password",
+            "confirmPassword": "Confirm Password",
+            "userPhoneCountry": "Country code"
+        },
+        "userInternalLabel": {
+            "userInternalLabelID": "User Internal Label ID",
+            "userInternalLabel": "User Internal Label",
+            "itemName": "User Internal Label"
+        },
+        "userRegistraion": {
+            "title": "Register"
+        },
+        "userLabel": {
+            "userLabelID": "User Label ID",
+            "userLabel": "User Label",
+            "itemName": "User Label"
+        },
+        "userEmailVerificationToken": {
+            "userEmailVerificationTokenID": "Email Verification Token ID",
+            "userEmailVerificationToken": "Email Verification Token",
+            "itemName": "Email Verification Token"
+        },
+        "userSMSVerificationToken": {
+            "userSMSVerificationTokenID": "SMS Verification Token ID",
+            "userSMSVerificationToken": "SMS Verification Token",
+            "itemName": "SMS Verification Token"
+        },
+        "userPermission": {
+            "userPermissionID": "User Permission ID",
+            "userPermission": "User Permission",
+            "itemName": "User Permission"
+        },
+        "refreshToken": {
+            "refreshTokenID": "Refesh Token ID",
+            "refreshToken": "Verification Refresh Token",
+            "refreshTokenLastState": "Refresh Token Last Status",
+            "itemName": "Verification Refresh Token"
+        },
+        "group": {
+            "groupID": "Group ID",
+            "groupName": "Group Name",
+            "groupEnabled": "Enable",
+            "itemName": "Group"
+        },
+        "groupUserID": {
+            "groupUserID": "Group User ID",
+            "itemName": "Group User"
+        },
+        "groupPermission": {
+            "groupPermissionID": "Group Permission ID",
+            "groupPermission": "Group Permission",
+            "itemName": "Group Permission"
+        },
+        "phoneBlacklist": {
+            "phoneBlacklistID": "Phone Blacklist ID",
+            "phoneBlacklist": "Phone Blacklist",
+            "itemName": "Phone Blacklist"
+        },
+        "emailBlacklist": {
+            "emailBlacklistID": "Email Blacklist ID",
+            "emailBlacklist": "Email Blacklist",
+            "itemName": "Email Blacklist"
+        },
+        "emailVerification": {
+            "succeed": {
+                "description": "You have successfully registered with the UTFG registration system",
+                "title": "Verification succeeded"
+            },
+            "pending": {
+                "description": "Please verify your email address before using the UTFG registration system",
+                "title": "Please verify your email"
+            }
+        },
+        "phoneVerification": {
+            "description": "We have sent an SMS verification code to your cell phone, please enter your verification code here.",
+            "title": "Verify your cell phone number",
+            "phoneVerificationCode": "Verification Code"
+        },
+        "continueLogin": {
+            "continueLoginTitle": "Login",
+            "continueLoginDescription": "Continue to UTFG Registration System",
+            "newUserDescription": "New user?",
+            "newUserLink": "Create an account"
+        },
+        "recaptchaCheck": {
+            "iAmNotRobot": "Dragon-friendlier like me could not be a robot placeholder"
+        },
+        "resetPassword": {
+            "resetPasswordTitle": "Forgot Password",
+            "passwordLengthDescription": "Password must be at least 8 characters"
+        },
+        "userRegistration": {
+            "title": "Create Account",
+            "description": "Use Email to Register"
+        },
+        "registrationSuccessful": {
+            "title": "Registration Success",
+            "description": "You have completed registration with the UTFG registration system"
+        },
+        "registraionAgreements": {
+            "title": "Registration Terms and Conditions"
+        }
+    },
+    "enums": {
+        "userGender": {
+            "Male": "Male",
+            "Female": "Female",
+            "Other": "Other"
+        }
+    }
+}

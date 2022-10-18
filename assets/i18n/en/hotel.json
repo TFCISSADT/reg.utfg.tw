@@ -1,0 +1,125 @@
+{
+    "serviceName": "Hotel",
+    "hotel": {
+        "notice": {
+            "Title": "Hotel room reversation is closed",
+            "Content": "For more information, please refer to the official website.",
+            "timeContent1": "Room Booking Start at: 2025/XX/XX XX:XX (UTC+08:00)",
+            "timeContent2": "",
+            "roomsrefbutton": "Reservation Info",
+            "roomsrefurl": "https://www.UTFG.com/en/room-en/",
+            "endTitle": "UTFG 2025 Booking is closed",
+            "endContent": "If you have any questions about booking, please contact Fullon Hotel Lihpao Resort."
+        },
+        "name": {
+            "fullon": {
+                "normalFTW1": "Deluxe Cityview (No Bathtub)",
+                "normalFTW2": "Deluxe Cityview (With Bathtub)",
+                "normalSSG": "Superior Room",
+                "normalVDT1": "Deluxe Sea View (No Bathtub)",
+                "normalVDT2": "Deluxe Sea View (With Bathtub)",
+                "normalVTW1": "Sea View Japanese Style Room (No Bathtub)",
+                "normalVTW3": "Sea View Japanese Style Room (With Bathtub)",
+                "normalTWN": "Superior Twin (Camping Themed)",
+                "normalJSU1": "Executive Suite A",
+                "normalJSU2": "Executive Suite B",
+                "normalHSU": "Sea View Honeymoon Suite",
+                "normalDSU": "Deluxe Suite",
+                "silentFTW1": "Deluxe Cityview (No Bathtub) (Quiet Floor)",
+                "silentFTW2": "Deluxe Cityview (With Bathtub) (Quiet Floor)",
+                "silentSSG": "Superior Room (Quiet Floor)",
+                "silentVDT1": "Deluxe Sea View (No Bathtub) (Quiet Floor)",
+                "silentVDT2": "Deluxe Sea View (With Bathtub) (Quiet Floor)",
+                "silentVTW1": "Sea View Japanese Style Room (No Bathtub) (Quiet Floor)",
+                "silentVTW3": "Sea View Japanese Style Room (With Bathtub) (Quiet Floor)",
+                "silentJSU1": "Executive Suite A (Quiet Floor)",
+                "silentJSU2": "Executive Suite B (Quiet Floor)",
+                "silentHSU": "Sea View Honeymoon Suite (Quiet Floor)",
+                "silentDSU": "Deluxe Suite (Quiet Floor)",
+                "hotelTOS": "► Hotel TOS",
+                "silentTWN": "Superior Twin (Camping Themed) (Quiet Floor)"
+            }
+        }
+    },
+    "errors": {
+        "noAvailableRoomTypes": "No room types available",
+        "noAvailableCSE": {
+            "title": "Crested Serpent Eagle slots fully taken",
+            "content": "The slot for UTFG2025 CSE has been fully taken.",
+            "button": "Select another membership"
+        }
+    },
+    "fields": {
+        "selectRoomType": {
+            "title": "Choose Type"
+        },
+        "registrationAgreements": {
+            "title": "Hotel Booking Terms and Conditions",
+            "hotelNotice": "By pressing this button, I've read, understood, and agree to abide by the above rules."
+        },
+        "reservationTitle": "Reservation for Rooms of T11 T12 Racing Theme Hotel",
+        "duringDate": "Select booking duration",
+        "reserveInformation": "Reservation information",
+        "reservationOccupantNum": "Occupants",
+        "period": "Period",
+        "roomType": "Room type",
+        "checkinDate": "Check-in date",
+        "checkoutDate": "Check-out date",
+        "quiz": "Please answer the questions below",
+        "orderAmount": {
+            "title": "Estimated total room price",
+            "description": "This is an estimated price, the actual price is subject to the reservation agreement provided by Fullon Hotel."
+        },
+        "userIdentificationNumber": {
+            "title": "Complete Passport Numbers",
+            "description": "For Hotel Use Only"
+        },
+        "perNight": "per night",
+        "selectedRoomType": "Chosen room type",
+        "showSoldOutRooms": "Show sold-out room type"
+    },
+    "name": {
+        "hotel": {
+            "fullon": "Fullon Hotel Lihpao Resort"
+        }
+    },
+    "room": {
+        "name": {
+            "normal": "Normal Room",
+            "silent": "Quiet Floor Room"
+        }
+    },
+    "messages": {
+        "completed": "Reservation completed",
+        "reserveCompleted": "Your reservation has already been completed, if you have any questions please contact Fullon Hotel Tamsui Fisherman's Wharf.",
+        "pending": "Processing Booking Information",
+        "reservePending": "Booking information is being processed, please check your email for confirmation from Fullon Hotel.",
+        "noSelectablePeriods": "No selectable period",
+        "disappearedRoomMeansSoldOut": "Unavailable room type means it's sold out",
+        "roomTypesLoading": "Loading selectable room types",
+        "allRoomTypesSoldOut": "No matching room type or sold out"
+    },
+    "mails": {
+        "completed": {
+            "completedText": "Booking successful, {userNickname}",
+            "subject": "Booking Success",
+            "thanksForReservation": "Thank you for booking and we look forward to seeing you at this year's {eventName}.",
+            "reservationData": "Booking Information",
+            "emailReason": "The reason you are receiving this email is that this email address successfully booked the room in the UTFG reservation system. If you have any questions, please contact the UTFG event official."
+        }
+    },
+    "status": {
+        "pending": "Processing",
+        "complete": "Complete",
+        "soldOut": "Sold out",
+        "created": "Created",
+        "refunded": "Refunded",
+        "reserved": "Reserved"
+    },
+    "day":{
+        "3":"3 Days (2 Nights)",
+        "4":"4 Days (3 Nights)",
+        "5":"5 Days (4 Nights)",
+        "6":"6 Days (5 Nights)"
+    }
+}

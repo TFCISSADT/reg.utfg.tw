@@ -1,0 +1,128 @@
+{
+    "systemName": "UTFG 報名系統",
+    "errors": {
+        "unexcepted": "發生未知錯誤，請稍後再試，若依舊發生錯誤請聯絡主辦單位。",
+        "unauthorized": "尚未登入，請先登入後再進行操作。",
+        "insufficientPermission": "權限不足",
+        "internalAuthenticationError": "內部驗證錯誤，請檢查設定是否正確。",
+        "notFound": "找不到此資料，請確定資料是否存在。",
+        "invalidRecaptchaResponse": "機器人驗證未通過，請稍後再試。",
+        "missingInternalLabel": "您尚未擁有權限，因此無法使用此功能。",
+        "eventNotFound": "找不到此活動，請確認後再次嘗試。",
+        "eventArchived": "此活動已經進入封存狀態，資料已無法進行任何更動。",
+        "notRegistered": "您尚未報名活動，請先報名後再進行操作。",
+        "serviceUnavailable": "服務暫時無法使用，請稍後再試。若依舊發生錯誤請聯絡主辦單位。",
+        "imATeapot": "您的帳號觸發系統安全機制。你不該在這裡。 (Server is teapot right now)",
+        "invalidQuizAnswers": "隨機問答答案錯誤，請檢查後再試。",
+        "accountRestricted": "您的帳號已被限制使用此服務，若有疑慮請洽 UTFG 官方",
+        "notFursuiter" : "您尚未投稿毛毛名單，請先投稿並等待審核通過後再進行操作。",
+        "paymentServiceUnavailable": "付款服務暫時無法使用，請稍後再試。若依舊發生錯誤請聯絡主辦單位。"
+    },
+    "events": {
+        "UTFG2025": {
+            "title": "UTFG 2025 - 學園祭",
+            "subtitle": "",
+            "registrationToS": "► TOS\n\n",
+            "registrationNotice": "報名本活動代表您已詳細閱讀、瞭解並同意以上條約與規則，若有違規情事發生， UTFG 有權取消您的參加資格。",
+            "enum": {
+                "registrationParadiseTickets": {
+                    "探索樂園入園券(1日)": "探索樂園入園券(1日)",
+                    "探索樂園入園券(2日)": "探索樂園入園券(2日)",
+                    "探索樂園入園券(3日)": "探索樂園入園券(3日)"
+                }
+            }
+        }
+    },
+    "levels": {
+        "UTFG2025": {
+            "WG": {
+                "title": "巨翼守護者",
+                "subtitle": "獲得本屆飯店優先預定資格， UTFG 3日參加資格，特殊紀念品與禮遇。",
+                "description": "",
+                "benefits": "三日參與資格\n飯店餐飲9折\n識別證名牌\n識別證帶\n活動場刊\n身分專屬胸章\n身分名條\n紀念布背袋\n活動海報\n活動紀念T\n紀念貼紙組\n特贊識別證帶\n特贊金屬胸章\n多面骰套組\n皮革小袋\n復古手帳本\n攝影棚優先拍攝\n領證免排隊\n閉幕與場刊致謝\n主舞台活動與攤位區免排隊入場\n主舞台活動前排保留席\n毛毛大合照前排保留席\n識別證與證帶凸顯標示\n主飯店優先訂房\n毛毛更衣室免費使用\n集點活動紀念品\n榮譽贊助背帶\n客製化LED名牌\n遊樂園兩日入場券\n主辦團隊感謝函\n禮盒外包裝"
+            }
+        }
+    },
+    "actions": {
+        "create": "建立",
+        "read": "讀取",
+        "update": "更新",
+        "delete": "刪除",
+        "cancel": "取消",
+        "confirm": "確認",
+        "close": "關閉",
+        "next": "下一步",
+        "prev": "上一步",
+        "edit": "編輯",
+        "send": "送出",
+        "select": "選擇",
+        "search": "搜尋",
+        "backToMainPage": "回首頁",
+        "back": "返回",
+        "clear": "清除",
+        "view": "查看",
+        "action": "動作",
+        "open": "開啟",
+        "apply": "申請",
+        "add": "新增",
+        "buy": "購買",
+        "doConfirm":"確認選擇這個選項？"
+    },
+    "values": {
+        "none": "沒有報名資料",
+        "noneBuy": "尚未購買",
+        "days" : "日",
+        "3days": "三日"
+    },
+    "fields": {
+        "common": {
+            "createdAt": "建立時間",
+            "createdBy": "建立者",
+            "updatedAt": "最後更新時間",
+            "updatedBy": "最後更新者",
+            "deletedAt": "刪除時間",
+            "deletedBy": "刪除者",
+            "expiredAt": "過期時間",
+            "remarks": "備註 (僅供管理員查看)",
+            "status": "狀態",
+            "actions": "動作",
+            "userPermissions": "使用者權限",
+            "qrcode" : "QR Code"
+        },
+        "audit": {
+            "itemName": "稽核紀錄",
+            "auditID": "稽核 ID",
+            "auditOperation": "操作",
+            "auditTarget": "目標",
+            "auditTargetID": "目標 ID",
+            "auditDataAfterOperation": "操作後之資料"
+        },
+        "dashboard": {
+            "dashboardTitle": "總覽",
+            "dashboardfielled": "已登記活動"
+        },
+        "pager" : {
+            "displaying" : "顯示中",
+            "total" : "共有",
+            "items" : "筆"
+        }
+    },
+    "buttons": {
+        "support": "取得協助",
+        "aboutWebsite": "關於網站",
+        "languages": "語言",
+        "logout": "登出"
+    },
+    "mails": {
+        "common": {
+            "buttonInvalid": "如果上方按鈕無法點擊，請複製這個網址到瀏覽器地址列"
+        }
+    },
+    "messages" : {
+        "createSuccessful" : "建立成功",
+        "updateSuccessful" : "更新成功",
+        "deleteSuccessful" : "刪除成功",
+        "pleaseAdjustDeviceBrightness" : "請將裝置亮度調整到最大以便於掃描.",
+        "linked" : "已連結"
+    }
+}
