@@ -1,0 +1,115 @@
+{
+    "serviceName": "Hotel",
+    "hotel": {
+        "notice": {
+            "Title": "Hotel room reversation is closed",
+            "Content": "For more information, please refer to the official website.",
+            "timeContent1": "Room Booking Start at: 2025/04/15 21:00 (UTC+08:00)",
+            "timeContent2": "",
+            "roomsrefbutton": "Reservation Info",
+            "roomsrefurl": "https://www.utfg.tw/en/hotel/",
+            "endTitle": "UTFG 2025 Booking is closed",
+            "endContent": "If you have any questions about booking, please contact UTFG's officai Facebook page"
+        },
+        "notRegisteredNotice": {            
+            "Title": "You are not registered yet",
+            "Content": "Please complete event registeration before booking the hotel room\nFor more information, please refer to the official website"
+        },
+        "name": {
+            "sheratonHsinchu": {
+                "hotelTOS": "Booking Process & Guidelines\n • Once the UTFG receives your booking request, it will be forwarded to the hotel for payment processing. The hotel will contact you via email, so please ensure your email is valid and check your spam folder.\n • This special booking is only available through online reservations. Phone or other booking methods are not accepted.\n • You must complete registering for UTFG School Carnival before booking the hotel.\n • Each participant can book only one room. Multiple bookings are not allowed.\n • Booking implies agreeing with the UTFG event booking regulations. UTFG official announcements take precedence, and the standard individual booking contract under the Tourism Administration does not apply here.\n • The hotel will charge the full payment for the room upon reservation. Please complete the payment within the specified time after receiving the hotel's confirmation.\n • UTFG's special room rates are not eligible for the Marriott Bonvoy Program and do not include an invoice.\n\nBooking Period & Phases\n- Phase 1 Booking\n • Opening Time: Tuesday, April 15th, 2025, 21:00[GMT+8]\n • Only available for 3-night stay booking:\n  - Check-in - Friday, July 18th, 2025\n  - Check out - Monday, July 21st, 2025\n- Phase 2 Booking (If available)\n • If the rooms are all fully booked in Phase 1, there will be no Phase 2.\n • Phase 2 will start from Tuesday, April 22nd, 21:00[GMT+8] if there's room remaining.\n • In Phase 2, you may choose the number of nights freely.\n- Waitlist Booking\n • If Phase 1 is fully booked, waitlist applications will open on Tuesday, April 22nd at 21:00[GMT+8].\n • Waitlist applicants can also freely choose the number of nights.\n • Please apply for the waitlist through the registration system.\n\nCancellation & Refund Policy\n • To cancel a reservation, contact the hotel before Saturday, May 31st, 23:59[GMT+8] to request a refund.\n • Cancellations after June 1st 00:00[GMT+8] will not be refundable.\n\nFor other hotel-related notes and regulations, please refer to the official UTFG website.\n\nIf you have further questions, please reach out via the official UTFG Facebook Page or email utfgtw@gmail.com.\n",
+                "deluxeDoubleRoom": "Deluxe Double Room (Double) (2 Persons)",
+                "deluxeTwinRoom": "Deluxe Twin Room (Twin) (2 Persons)",
+                "familyTwin": "Family Twin (4 Persons)",
+                "sheratonSuite": "Sheraton Suite (2 Persons)"
+            }
+        }
+    },
+    "name": {
+        "hotel": {
+            "sheratonHsinchu": "Sheraton Hsinchu Hotel"
+        }
+    },
+    "errors": {
+        "noAvailableRoomTypes": "No room types available",
+        "noAvailableCSE": {
+            "title": "Crested Serpent Eagle slots fully taken",
+            "content": "The slot for UTFG2023 CSE has been fully taken.",
+            "button": "Select another membership"
+        }
+    },
+    "fields": {
+        "selectRoomType": {
+            "title": "Choose Type"
+        },
+        "registrationAgreements": {
+            "title": "Hotel Booking Terms and Conditions",
+            "hotelNotice": "By pressing this button, I've read, understood, and agree to abide by the above rules."
+        },
+        "reservationTitle": "Reservation for Rooms",
+        "duringDate": "Select booking duration",
+        "reserveInformation": "Reservation information",
+        "reservationExtraOccupantType": "Extra Occupant",
+        "period": "Period",
+        "roomType": "Room type",
+        "checkinDate": "Check-in date",
+        "checkoutDate": "Check-out date",
+        "quiz": "Please answer the questions below",
+        "orderAmount": {
+            "title": "Estimated total room price",
+            "description": "This is an estimated price, the actual price is subject to the reservation agreement provided by Sheraton Hsinchu Hotel."
+        },
+        "userIdentificationNumber": {
+            "title": "Complete Passport Numbers",
+            "description": "For Hotel Use Only"
+        },
+        "perNight": "per night",
+        "selectedRoomType": "Chosen room type",
+        "showSoldOutRooms": "Show sold-out room type"
+    },
+    "room": {
+        "name": {
+            "normal": "Normal Room",
+            "silent": "Quiet Floor Room"
+        }
+    },
+    "messages": {
+        "completed": "Hotel booking recorded",
+        "reserveCompleted": "Your reservation has been recorded, if you have any questions please contact Sheraton Hsinchu Hotel.",
+        "pending": "Processing Booking Information",
+        "reservePending": "Booking information is being processed, please check your email for confirmation from Sheraton Hsinchu Hotel.",
+        "noSelectablePeriods": "No selectable period",
+        "disappearedRoomMeansSoldOut": "Unavailable room type means it's sold out",
+        "roomTypesLoading": "Loading selectable room types",
+        "allRoomTypesSoldOut": "No matching room type or sold out"
+    },
+    "mails": {
+        "completed": {
+            "completedText": "Hotel booking recorded, {userNickname}",
+            "subject": "Hotel booking recorded",
+            "thanksForReservation": "Thank you for submitting the booking request, we look forward to seeing you at this year's {eventName}.",
+            "reservationData": "Reservation Data",
+            "emailReason": "The reason you are receiving this email is that this email address successfully booked the room in the UTFG reservation system. If you have any questions, please contact the UTFG event official.",
+            "reminderForHotelNotification": "The hotel is expected to send out relevant notifications between April 21 and April 25. Please keep an eye out for a confirmation email from the Sheraton Hotel. Your reservation will only be valid after finishing the payment.",
+            "reminderForRoomLocation": "During the event period, hotel rooms will be assigned by the hotel to either the East Wing or West Wing. Requests for a specific wing cannot be guaranteed."
+        }
+    },
+    "status": {
+        "pending": "Recorded",
+        "complete": "Complete",
+        "soldOut": "Sold out",
+        "created": "Created",
+        "refunded": "Refunded",
+        "reserved": "Reserved"
+    },
+    "day":{
+        "3":"3 Days (2 Nights)",
+        "4":"4 Days (3 Nights)"
+    },
+    "extraOccupantType": {
+        "None": "None",
+        "Adult": "1 Adult",
+        "Children": "1 Children (Age 6-12)",
+        "ChildrenUnder6": "1 Children (Under age of 6)"
+    }
+}

@@ -1,0 +1,6 @@
+{
+  "serviceName": "簡訊",
+  "errors": {
+    "serviceUnavailable": "簡訊服務暫時無法使用，請稍後再試。"
+  }
+}

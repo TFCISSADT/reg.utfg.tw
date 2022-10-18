@@ -1,0 +1,6 @@
+{
+    "serviceName": "Email",
+    "errors": {
+        "serviceUnavailable": "Email service is temporarily unavailable, please try again later."
+    }
+}

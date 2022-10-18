@@ -1,0 +1,52 @@
+{
+    "serviceName": "Points",
+    "errors": {
+        "registrationQueryFailed": "Cannot find user, invalid query parameter or system was busy",
+        "shouldUseDepositToken": "A deposit token is expected, but was given withdraw token",
+        "missingIdentificationInfo": "Missing query parameter",
+        "shouldUseWithdrawToken": "A withdraw token is expected, but was given deposit token",
+        "duplicateRewardNameKey": "Duplicated reward name",
+        "duplicateToken": "Duplicated token",
+        "pointShouldBeAnInteger": "Point should be an integer",
+        "pointShouldBeNonNegative": "Point should be non-negative",
+        "zeroModificationGiven": "Modification cannot be 0",
+        "invalidTimestamp": "Invalid timestamp",
+        "noEnoughPoint": "Not enough points",
+        "redeemLimitExceeded": "Redeem limit exceed",
+        "invalidVolunteerToken": "Invalid volunteer token",
+        "userRecordAlreadyExists": "User record already exists",
+        "invalidUserToken": "Invalid user token"
+    },
+    "fields": {
+        "point": "Point",
+        "reason": "Reason",
+        "modification": "Modification",
+        "userPoints": "User points",
+        "depositToken": "Deposit barcode",
+        "withdrawToken": "Withdraw barcode",
+        "token": {
+            "tokenName": "Token name",
+            "tokenPoints": "Token points",
+            "tokenModifyReason": "Displayed modify reason",
+            "tokenValidFrom": "Valid from",
+            "tokenValidTo": "Valid due"
+        },
+        "rewards": {
+            "rewardName": "Reward name",
+            "rewardNameKey": "Reward name key",
+            "rewardCost": "Cost",
+            "rewardRedeemLimit": "Redeem limit"
+        }
+    },
+    "actions": {
+        "redeem": "Redeem",
+        "history": "History"
+    },
+    "reason": {
+        "updatedByFrontDesk": "Updated by front desk",
+        "updatedByAdmin": "Updated by admin",
+        "redeem": "Redeem",
+        "adminRedeem": "Redeemed by admin",
+        "initialValue": "Initial value"
+    }
+}

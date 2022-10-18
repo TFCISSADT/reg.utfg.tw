@@ -1,0 +1,113 @@
+{
+    "serviceName": "Event",
+    "title": "Participate and submit to UTFG events",
+    "fields": {
+        "name": "Name",
+        "description": "Description (Can be empty)",
+        "type": "Type",
+        "availableForms": "All Events",
+        "myForms": "My Events",
+        "previousResponses": "Submission Records",
+        "previousResponsesDescription": "Press the edit button to view or edit the previously submission data below",
+        "openTimestamp": "Open Hours",
+        "closeTimestamp": "Deadline",
+        "endeditTimestamp": "Editing Deadline",
+        "responses": "Reponse",
+        "form": {
+            "formID": "Form ID",
+            "formOwnerID": "Form Owner",
+            "formTitle": "Form Title",
+            "formDescription": "Form Description",
+            "formConfig": {
+                "_name": "Form Config",
+                "openTimestamp": "Open Time",
+                "closeTimestamp": "Close Time"
+            }
+        }
+    },
+    "types": {
+        "input": "Input",
+        "text": "Title and description text",
+        "radio": "Select Question",
+        "number": "Number Input Box",
+        "checkbox": "Checkbox",
+        "datetime": "Date and Time",
+        "date": "Date",
+        "time": "Time"
+    },
+    "viewMethod": {
+        "title": "View with:",
+        "readonly": "Read Only",
+        "modifyable": "Modifyable"
+    },
+    "actions": {
+        "viewSchema": "Edit Form",
+        "viewResponses": "Reply Form",
+        "editPermissions": "Edit Permission",
+        "editTags": "Edit Tags"
+    },
+    "errors": {
+        "formRechedMaxResponseCount": "Maximum number of response has been reached",
+        "validation": {
+            "typeInvalid": "Incorrect format, please check and try again",
+            "required": "Required field",
+            "numberInvalid": "Invalid numbers, please check and try again",
+            "optionInvalid": "Invalid option, please check and try again"
+        },
+        "formcloseTimestampriched": "Deadline reached",
+        "formNotOpenYet": "Form Not Yet Open",
+        "formClosed": "Form Closed",
+        "formRequireRegistered": "Need to register for UTFG before filling out this form",
+        "formRequireInternalLabel": "Filling out this form requires a special identity, please confirm before filling out the form, if you have any questions, please contact the official",
+        "formRechedMaxResponseCountPerUser": "Maximum number of entries reached",
+        "formNotEditable": "The form is no longer editable",
+        "formNotDeletable": "The form can no longer be deleted"
+    },
+    "messages": {
+        "formSubmitSuccessful": "Send Success!"
+    },
+    "status": {
+        "created": "Created",
+        "processing": "Processing",
+        "completed": "Completed",
+        "deleted": "Deleted",
+        "editrequired": "Edit Required",
+        "accepted": "Accepted",
+        "rejected": "Rejected",
+        "awarded": "Awarded",
+        "unawarded": "Not awarded"
+    },
+    "mails": {
+        "notify": {
+            "filled": {
+                "subject": "Form {formTitle} received new response",
+                "notifyContent": "User {userNickname} (User ID: {userID}) filled out form {formTitle} (Form ID: {formID})"
+            },
+            "emailReason": "You are receiving this email because this email address is registered on the form notification mailing list, please contact the UTFG official if you have any questions.",
+            "edited": {
+                "subject": "Form {formTitle} response is updated",
+                "notifyContent": "User {userNickname} (User ID: {userID}) has updated form {formTitle} (Form ID: {formID})"
+            }
+        },
+        "filled": {
+            "emailReason": "You are receiving this email because the account to which this email address is bound is filling out a form in the system. If you have any questions, please contact UTFG officials.",
+            "subject": "Your {formTitle} form response has been received",
+            "title": "Form completed successfully",
+            "received": "We have received your form response (ID: {formResponseID}), please be patient and wait for the result, thank you for filling in the form!"
+        },
+        "edited": {
+            "emailReason": "You are receiving this email because the account tied to this email address is updating its form in the system. If you have any questions, please contact UTFG officials.",
+            "subject": "Received an update to your {formTitle} form",
+            "title": "Form updated successfully",
+            "edited": "We have received your form update (ID: {formResponseID}), please be patient and wait for the result, thank you for filling in the form!"
+        },
+        "editRequired": {
+            "requireEdit": "Sorry, your form data (ID: {formResponseID}) needs to be edited again, thank you for your cooperation!",
+            "emailReason": "You are receiving this email because the account that this email address is tied to has a form in the system that needs to be updated. If you have any questions, please contact UTFG officials.",
+            "subject": "Your {formTitle} form data needs editing",
+            "title": "Form data needs editing",
+            "reason": "Official Team Remarks : {formResponseRemarks}"
+        },
+        "responseBelow": "The form responses are as follows: "
+    }
+}

@@ -1,0 +1,233 @@
+{
+    "serviceName": "使用者",
+    "errors": {
+        "emailOrPasswordIncorrect": "電子郵件或密碼錯誤，請檢查後重新輸入",
+        "userDisabled": "您的帳號已被停用，請與 UTFG 官方聯絡",
+        "emailNotVerified": "您的電子郵件尚未驗證，請至您的電子郵件信箱收取驗證信件",
+        "phoneNotVerified": "您的手機號碼尚未驗證，請至您的電子郵件信箱收取驗證信件",
+        "authSystemError": "系統錯誤，請稍後再試",
+        "refreshTokenInvalid": "您的登入狀態已經過期，請重新登入",
+        "duplicateUserEmail": "此電子郵件已被使用",
+        "duplicateUserPhone": "此電話號碼已被使用",
+        "groupUserAlreadyExists": "此使用者已經在群組中",
+        "userPermissionAlreadyExists": "此使用者已經有此權限",
+        "groupPermissionAlreadyExists": "此群組已經有此權限",
+        "userLabelAlreadyExists": "此使用者標籤已經存在",
+        "userInternalLabelAlreadyExists": "此使用者內部標籤已經存在",
+        "oldPasswordIncorrent": "舊密碼不相同，修改密碼失敗",
+        "confirmPasswordIncorrect": "確認密碼不相同",
+        "confirmEmailIncorrect" : "確認電子郵件不相同",
+        "emailVerificationTokenExpired": "您的電子郵件驗證連結已過期，請重新發送驗證信件",
+        "smsVerificationTokenExpired": "您的手機驗證碼已過期，請重新發送驗證簡訊",
+        "passwordResetTokenExpired": "您的密碼重設連結已過期，請重新發送重設密碼信件",
+        "emailVerificationAttemptsExceeded": "您的電子郵件驗證連結今日發送次數已達上限，請稍後再試",
+        "smsVerificationAttemptsExceeded": "您的手機驗證碼今日發送次數已達上限，請隔天再試",
+        "passwordResetAttemptsExceeded": "您的密碼重設連結今日發送次數已達上限，請稍後再試",
+        "userNotFoundOrVerified": "找不到此使用者或此使用者已經驗證過",
+        "userNotFound": "找不到此使用者",
+        "userEmailInBlacklist": "此電子郵件已被停用，請與 UTFG 官方聯絡",
+        "userPhoneInBlacklist": "此手機號碼已被停用，請與 UTFG 官方聯絡",
+        "passwordLengthIncorrect": "密碼需大於8個字",
+        "oauthExists": "此第三方帳號已經被使用，若要連結此帳號請先解除綁定，或是使用其他帳號連結",
+        "oauthNotExists": "此第三方帳號尚未連結，請先進行註冊或是綁定",
+        "oauthFailed": "第三方登入失敗，請稍後再試",
+        "oauthAlreadyBound": "您已綁定此服務，請先解除綁定",
+        "oauthNotBound": "您尚未綁定此服務"
+    },
+    "mails": {
+        "verification": {
+            "subject": "電子郵件驗證",
+            "title": "電子郵件驗證",
+            "requestRecevied": "我們收到了你註冊 UTFG 報名系統的要求，請透過下方按鈕驗證你的電子郵件信箱。",
+            "buttonText": "驗證電子郵件",
+            "buttonInvalid": "如果上方按鈕無法點擊，請複製這個網址到瀏覽器地址列",
+            "emailReason": "你收到這封郵件的原因是這個電子郵件地址請求在 UTFG 報名系統註冊帳號，如果有任何問題，請與 UTFG 活動官方聯絡。"
+        },
+        "resetPassword": {
+            "subject": "重設密碼",
+            "title": "重設密碼",
+            "requestRecevied": "我們收到了你重設 UTFG 報名系統密碼的要求，請透過下方按鈕重設您的密碼。",
+            "buttonText": "重設密碼",
+            "buttonInvalid": "如果上方按鈕無法點擊，請複製這個網址到瀏覽器地址列",
+            "emailReason": "你收到這封郵件的原因是這個電子郵件地址請求在 UTFG 報名系統重設密碼，如果有任何問題，請與 UTFG 活動官方聯絡。"
+        }
+    },
+    "sms": {
+        "verification": "您好，您的 UTFG 報名系統驗證碼為：{code}"
+    },
+    "actions": {
+        "updateBasicInfo": "變更基本資料",
+        "updatePassword": "變更密碼",
+        "disconnect": "解除連接",
+        "connect": "連接",
+        "login": "登入",
+        "loginNow": "立即登入",
+        "register": "註冊 UTFG 帳號",
+        "loginWithGoogle": "使用 Google 繼續",
+        "verifyPhone": "驗證",
+        "resendPhoneVerificationCode": "重發認證簡訊",
+        "sendVerifyEmail": "發送驗證信"
+    },
+    "messages": {
+        "basicInfoUpdateSuccessful": "基本資料更新成功！",
+        "passwordUpdateSuccessful": "密碼更新成功！",
+        "resetPasswordRequestReceived": "如果電子郵件地址在我們的資料庫，您不久後將會收到重設信件。",
+        "verifyingPasswordResetRequest": "確認中",
+        "verifyingEmail": "驗證信箱中",
+        "verifyEmailSent": "已寄出驗證信",
+        "passwordResetSuccessful": "密碼變更完畢。",
+        "verifyingPhone": "驗證手機中",
+        "oauthBound": "綁定成功",
+        "oauthUnbound": "解除綁定成功",
+        "userEditBasicInfoNotice": "如需編輯基本資料，請使用官方 Email 與我們聯絡。"
+    },
+    "fields": {
+        "submenu": {
+            "Account": "帳戶",
+            "LoginandSecurity": "登入與安全性"
+        },
+        "continueLogin": {
+            "continueLoginTitle": "登入",
+            "continueLoginDescription": "繼續至  UTFG 報名系統",
+            "newUserDescription": "新用戶?",
+            "newUserLink": "建立帳戶"
+        },
+        "user": {
+            "itemName": "使用者",
+            "userID": "使用者 ID",
+            "userEmail": "電子郵件",
+            "userEmailConfirm": "電子郵件確認",
+            "userPassword": "密碼",
+            "userPhone": "手機號碼",
+            "userPhoneCountry": "國碼",
+            "userIdentificationNumber": "身分證後五碼 (國外請改護照)",
+            "userRealname": "真實姓名",
+            "userNickname": "暱稱",
+            "userEnabled": "是否啟用",
+            "userBirthday": "生日",
+            "userCountry": "國家",
+            "userGender": "性別",
+            "userLanguage": "語言",
+            "userEmailVerifiedAt": "電子郵件驗證於",
+            "userPhoneVerifiedAt": "手機驗證於",
+            "submenuAccount": "帳戶",
+            "submenuLoginandSecurity": "登入與安全性",
+            "accountImage": "帳戶照片",
+            "accountInformation": "帳戶資料",
+            "basicInformation": "基本資料",
+            "oldPassword": "舊密碼",
+            "newPassword": "新密碼",
+            "confirmPassword": "確認密碼"
+        },
+        "userInternalLabel": {
+            "itemName": "使用者內部標籤",
+            "userInternalLabelID": "使用者內部標籤 ID",
+            "userInternalLabel": "使用者內部標籤"
+        },
+        "userLabel": {
+            "itemName": "使用者標籤",
+            "userLabelID": "使用者標籤 ID",
+            "userLabel": "使用者標籤"
+        },
+        "userRegistraion": {
+            "title": "註冊"
+        },
+        "registraionAgreements": {
+            "title": "報名須知與條款"
+        },
+        "userEmailVerificationToken": {
+            "itemName": "電子郵件驗證 Token",
+            "userEmailVerificationTokenID": "電子郵件驗證 Token ID",
+            "userEmailVerificationToken": "電子郵件驗證 Token"
+        },
+        "userSMSVerificationToken": {
+            "itemName": "電話驗證 Token",
+            "userSMSVerificationTokenID": "電話驗證 Token ID",
+            "userSMSVerificationToken": "電話驗證 Token"
+        },
+        "userPasswordResetToken": {
+            "itemName": "重設密碼驗證 Token",
+            "userPasswordResetTokenID": "重設密碼驗證 Token ID",
+            "userPasswordResetToken": "重設密碼驗證 Token"
+        },
+        "userPermission": {
+            "itemName": "使用者權限",
+            "userPermissionID": "使用者權限 ID",
+            "userPermission": "使用者權限"
+        },
+        "refreshToken": {
+            "itemName": "驗證 Refesh Token",
+            "refreshTokenID": "驗證 Refesh Token ID",
+            "refreshToken": "驗證 Refesh Token",
+            "refreshTokenLastState": "驗證 Refesh Token 最後狀態"
+        },
+        "group": {
+            "itemName": "群組",
+            "groupID": "群組 ID",
+            "groupName": "群組名稱",
+            "groupEnabled": "是否啟用"
+        },
+        "groupUserID": {
+            "itemName": "群組使用者",
+            "groupUserID": "群組使用者 ID"
+        },
+        "groupPermission": {
+            "itemName": "群組權限",
+            "groupPermissionID": "群組權限 ID",
+            "groupPermission": "群組權限"
+        },
+        "oauth": {
+            "itemName": "第三方登入",
+            "oauthID": "OAuth ID",
+            "oauthService": "OAuth 服務",
+            "oauthServiceUserID": "OAuth 服務使用者 ID"
+        },
+        "phoneBlacklist": {
+            "itemName": "手機號碼黑名單",
+            "phoneBlacklistID": "手機號碼黑名單 ID",
+            "phoneBlacklist": "手機號碼黑名單"
+        },
+        "emailBlacklist": {
+            "itemName": "電子郵件黑名單",
+            "emailBlacklistID": "電子郵件黑名單 ID",
+            "emailBlacklist": "電子郵件黑名單"
+        },
+        "recaptchaCheck": {
+            "iAmNotRobot": "對龍友善的我不是機器人placeholder"
+        },
+        "resetPassword": {
+            "resetPasswordTitle": "忘記密碼",
+            "passwordLengthDescription": "密碼長度須至少8個字"
+        },
+        "emailVerification": {
+            "succeed": {
+                "title": "驗證成功",
+                "description": "您已經成功註冊 UTFG 報名系統"
+            },
+            "pending": {
+                "title": "請驗證您的電子郵件",
+                "description": "請驗證電子郵件信箱後繼續使用 UTFG 報名系統"
+            }
+        },
+        "userRegistration": {
+            "title": "建立帳戶",
+            "description": "使用電子郵件進行註冊"
+        },
+        "registrationSuccessful": {
+            "title": "註冊完成",
+            "description": "您已完成 UTFG 報名系統的註冊"
+        },
+        "phoneVerification": {
+            "title": "驗證您的手機號碼",
+            "description": "我們已經寄送一封驗證簡訊到您的手機，請在此輸入您的認證碼。",
+            "phoneVerificationCode": "驗證碼"
+        }
+    },
+    "enums": {
+        "userGender": {
+            "Male": "男",
+            "Female": "女",
+            "Other": "其他"
+        }
+    }
+}

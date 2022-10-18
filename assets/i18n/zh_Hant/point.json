@@ -1,0 +1,52 @@
+{
+    "serviceName": "點數",
+    "fields" : {
+        "point" : "點數",
+        "reason" : "原因",
+        "modification" : "變化",
+        "userPoints" : "使用者點數",
+        "depositToken" : "加點條碼",
+        "withdrawToken" : "扣點條碼",
+        "token" : {
+            "tokenName" : "Token名稱",
+            "tokenPoints" : "點數變化量",
+            "tokenModifyReason" : "顯示原因",
+            "tokenValidFrom" : "有效開始時間",
+            "tokenValidTo" : "有效結束時間"
+        },
+        "rewards" : {
+            "rewardName" : "獎品名稱",
+            "rewardNameKey" : "獎品名稱Key",
+            "rewardCost" : "花費",
+            "rewardRedeemLimit" : "兌換上限"
+        }
+    },
+    "actions" :{
+        "redeem": "兌換",
+        "history" : "歷史紀錄"
+    },
+    "reason" : {
+        "initialValue" : "初始點數",
+        "updatedByFrontDesk" : "由服務台調整",
+        "updatedByAdmin" : "管理員調整",
+        "redeem" : "兌換獎勵",
+        "adminRedeem" : "由管理員登記兌換獎勵"
+    },
+    "errors": {
+        "duplicateRewardNameKey": "rewardNameKey不可重複",
+        "duplicateToken": "嘗試使用重複的token",
+        "userRecordAlreadyExists": "一個參加者只能有一筆對應資料",
+        "pointShouldBeAnInteger": "點數只能為整數",
+        "pointShouldBeNonNegative": "點數不可為負數",
+        "zeroModificationGiven": "嘗試修改0點點數，此行為無意義",
+        "invalidTimestamp": "此時間為過去時間，或者結束時間早於開始時間",
+        "noEnoughPoint": "點數不足",
+        "redeemLimitExceeded": "可兌換次數已達到上限",
+        "invalidVolunteerToken": "無效的志工token",
+        "invalidUserToken": "無效的參加者token",
+        "shouldUseDepositToken": "預期為加點token，但出示的為兌換token",
+        "shouldUseWithdrawToken": "預期為兌換token，但出示的為加點token",
+        "missingIdentificationInfo": "需要至少一種key才能查詢參加者",
+        "registrationQueryFailed": "查無該參加者，可能查詢條件錯誤或系統沒有回應"
+    }
+}

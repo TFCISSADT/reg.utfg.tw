@@ -1,0 +1,141 @@
+{
+    "serviceName": "Fursuit",
+    "fursuiter": {
+        "tag": {
+            "dog": "Dog",
+            "wolf": "Wolf",
+            "dragon": "Dragon",
+            "sergal": "Sergal",
+            "lion": "Lion",
+            "tiger": "Tiger",
+            "smilodon": "Smilodon",
+            "cat": "Cat",
+            "fox": "Fox",
+            "squirrel": "Squirrel",
+            "canine": "Canine",
+            "feline": "Feline",
+            "leopard": "Leopard",
+            "cheetah": "Cheetah",
+            "panther": "Panther",
+            "jaguar": "Jaguar",
+            "bird": "Bird",
+            "hyena": "Hyena",
+            "westernDragon": "Western Dragon",
+            "easternDragon": "Eastern Dragon",
+            "herbivore": "Herbivore",
+            "deer": "Deer",
+            "goat": "Goat",
+            "rabbit": "Rabbit",
+            "horse": "Horse",
+            "bear": "Bear",
+            "snowLeopard": "Snow Leopard",
+            "coyote": "Coyote",
+            "lynx": "Lynx",
+            "raccoon": "Raccoon",
+            "otter": "Otter",
+            "weasel": "Weasel",
+            "pig": "Pig",
+            "mouse": "Mouse",
+            "hamster": "Hamster",
+            "hedgehog": "Hedgehog",
+            "badger": "Badger",
+            "skunk": "Skunk",
+            "reptile": "Reptile",
+            "dinosaur": "Dinosaur",
+            "crocodile": "Crocodile",
+            "turtle": "Turtle",
+            "snake": "Snake",
+            "lizard": "Lizard",
+            "amphibian": "Amphibian",
+            "fish": "Fish",
+            "shark": "Shark",
+            "whale": "Whale",
+            "dolphin": "Dolphin",
+            "seal": "Seal",
+            "cow": "Cow/Bull",
+            "hawk": "Hawk",
+            "kirin": "Kirin",
+            "unicorn": "Unicorn",
+            "gryphon": "Gryphon",
+            "panda": "Panda",
+            "redPanda": "Red Panda",
+            "dutchAngelDragon": "Dutch Angel Dragon",
+            "protogen": "Protogen",
+            "oceanCreature": "Ocean Creature",
+            "hybridCreature": "Hybrid Creature",
+            "fantasyCreature": "Fantasy Creature"
+        },
+        "status": {
+            "Submitted": "Pending for Verification",
+            "Approved": "Approved",
+            "Declined": "Declined",
+            "Deprecated": "Deprecated",
+            "Reserved": "Reserved"
+        },
+        "messages": {
+            "applyForUpdateSuccessful": "Successfully applied for update",
+            "applyForCreateSuccessful": "Successfully applied for create"
+        }
+    },
+    "serviceTitle": "Fursuit",
+    "fields": {
+        "changeRoom": {
+            "title": "Changing Room",
+            "changeRoomPrice": "Changing Room Price",
+            "changeRoomSocialLink": "Fursuit Social Page Link(Required)"
+        },
+        "fursuiter": {
+            "basicInfo": "Basic Information",
+            "listTitle": "Fursuit Roster",
+            "myAllCharacters": "Submitted Fursuit",
+            "owner": "Owner",
+            "tags": "Tags(Max:2)",
+            "description": "Description",
+            "status": "Status",
+            "image": "Fursuit Image",
+            "uploadImage": "Upload Fursuit Image",
+            "imageURL": "Image URL",
+            "socialMediaLink": "Social Page Link",
+            "crop": "Crop",
+            "canel": "Cancel",
+            "croppedResult": "Cropped Result",
+            "name": "Name",
+            "myCharacters": "My Fursuit",
+            "empty": "Not add any fursuit yet"
+        }
+    },
+    "mails": {
+        "changeRoomPaid": {
+            "subject": "Changing Room Paid Success",
+            "changeRoomPaidText": "{userNickname}, your payment for changing room is successfully done",
+            "changeRoomData": "Payment Info",
+            "thanksForRegistered": "Thank you for registering the Changing Room, we have received your payment and we look forward to seeing you at this {eventName}.",
+            "emailReason": "The reason you are receiving this email is that this email address is requesting to register to use the changing room in the UTFG registration system, please get in touch with the UTFG event official if you have any questions.",
+            "title": "<<Title>>"
+        }
+    },
+    "payment": {
+        "changeRoomDescription": "Changing Room Fee"
+    },
+    "changeRoom": {
+        "changeRoom": "Changing Room",
+        "notice": "Notice",
+        "notURL": "Is Not Valid URL",
+        "ToS": "► The Fursuit Changing Room is only available to purchase for fursuiters. When purchasing, please link to your fursuit social media info or fursuit photo(s) for reference.\n► Access to the changing room is tied to the participant, not the fursuit. If the same participant has multiple fursuits, purchasing access once is sufficient.\n► If the fursuiter lends their suit for someone else to put on, the one who puts on must purchase their own Fursuit Changing Room access.\n► Due to limited space, assistants (fursuit handlers) are not allowed to enter or exit the changing room.\n► Fursuit Changing Room access can be purchased online in advance or during the event. It is valid for the entire three-day event, and the specific time it may be used will be based on the opening hours onsite.\n► Fursuit Changing Room access is non-refundable, except when an attendee is unable to attend. If you are unsure whether you will need to use it, you can decide whether to purchase it onsite at the event venue (please note that we have a limited space of changing room).\n► Fursuit Changing Room should be used solely for the purpose of changing into and out of fursuit, brief rests while suited up and storing fursuit (luggage) temporarily. Loitering, sleeping, or other irrelevant activities are prohibited.\n► UTFG is not responsible for personal belongings in the changing room. Please take valuable items with you. Luggage cannot be stored overnight.\n► Taking pictures and videos is strictly prohibited inside the changing room.\n► The changing room is a shared space. Please consume beverages and snacks in moderation. When rested sufficiently, yield space to other fursuiters in need so they may rest too.\n► If any staff determine that an attendee violates the rules or impacts others' usage, the attendee may have their right to use the Fursuit Changing Room revoked."
+    },
+    "actions": {
+        "reselectImage": "Re-select Image"
+    },
+    "errors": {
+        "notAFursuiter": "This service is for fursuiters only",
+        "tooManyFursuits": "The registered fursuiters has reached the limit of our system",
+        "tooManyTags": "The tags has reached the limit of our system",
+        "cannotRetryPayment": "Cannot retry the payment now",
+        "notFursuitOwner": "You cannot edit the fursuit data that is not your own",
+        "fursuitTagNotFound": "Tag not found",
+        "imageFileTooLarge": "Image file too large",
+        "missingImageFile": "You have yo upload one image",
+        "wrongImageDimension": "The size of the image should be 512*512",
+        "wrongImageFormat": "Wrong image format"
+    }
+}

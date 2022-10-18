@@ -1,0 +1,1 @@
+.x-tooltip-container{display:flex}.x-tooltip-container .x-tooltip{animation:ease-in-out;background:#3f3f3f80;color:#fff;opacity:0;padding:0 4px;pointer-events:none;position:absolute;text-align:center;transition:.25s;vertical-align:middle;word-break:keep-all;z-index:1}.x-tooltip-container:hover .x-tooltip{opacity:1}

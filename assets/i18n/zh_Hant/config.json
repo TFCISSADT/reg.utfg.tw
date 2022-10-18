@@ -1,0 +1,31 @@
+{
+  "serviceName": "設定",
+  "errors": {
+    "duplicateSystemKey": "系統設定代碼重複，請重新輸入",
+    "duplicateEventKey": "活動代碼重複，請重新輸入",
+    "duplicateEventConfig": "活動子系統設定重複，請重新整理後再次嘗試"
+  },
+  "fields": {
+    "system": {
+      "itemName": "系統",
+      "systemKey": "系統代碼"
+    },
+    "config": {
+      "itemName": "設定",
+      "configID": "設定 ID",
+      "config": "設定"
+    },
+    "event": {
+      "itemName": "活動",
+      "eventID": "活動 ID",
+      "eventKey": "活動代碼",
+      "eventName": "活動名稱",
+      "eventArchived": "活動是否已封存"
+    },
+    "eventConfig": {
+      "itemName": "活動子系統設定",
+      "eventConfigID": "活動子系統設定 ID",
+      "eventConfig": "活動子系統設定"
+    }
+  }
+}

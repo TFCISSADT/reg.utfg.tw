@@ -1,0 +1,111 @@
+{
+    "serviceName": "飯店",
+    "hotel": {
+        "notice": {
+            "Title": "飯店訂房功能已關閉",
+            "Content": "如須更多資訊，請參見官網上的說明。",
+            "timeContent1": "訂房開放時間: 2025/04/15 21:00 (UTC+08:00)",
+            "timeContent2": "",
+            "roomsrefbutton": "訂房資訊",
+            "roomsrefurl": "https://www.utfg.tw/hotel/",
+            "endTitle": "UTFG 2025 年度訂房已結束",
+            "endContent": "如有任何問題，請洽 UTFG 官方粉絲團"
+        },
+        "notRegisteredNotice": {            
+            "Title": "您尚未報名活動",
+            "Content": "請於完成活動報名後再開始飯店訂房\n如須更多資訊，請參見官網上的說明"
+        },
+        "name": {
+            "sheratonHsinchu": {
+                "hotelTOS": "訂房流程與注意事項\n • UTFG 收到您的訂房資訊後，將轉交飯店處理付款事宜，飯店將以電子信箱聯繫，請務必確認信箱可正常收信，並注意垃圾郵件夾。\n • 本專案僅提供網路預訂，不接受電話或其他方式訂房。\n • 需完成 UTFG 學園祭報名，方可預訂專案房間。\n • 每位參加者僅能預訂 1 間房，請勿重複預訂。\n • 訂房視同同意 UTFG 活動訂房規定，訂房規範以 UTFG 官方公告為準，不適用觀光署個別旅客訂房定型化契約規範。\n • 本次專案訂房，飯店將收取房間全額費用，請於飯店通知指定時間內完成付款即完成訂房。\n • 訂房價格為 UTFG 與飯店專案簽約，不適用 Marriott Bonvoy Program 會員計畫，也無法提供發票，敬請見諒。\n\n訂房時間與階段\n- 第一階段訂房\n • 4/15（二）21:00 起開放第一階段訂房。\n • 僅限一次性預訂三晚（7/18（五）入住，7/21（一）退房）。\n- 第二階段訂房（視情況開放）\n • 若第一階段已全數額滿，則不會開放第二階段訂房。\n • 若尚有空房，將於 4/22（二）21:00 起開放第二階段訂房。\n • 第二階段可自由選擇入住晚數。\n- 候補訂房\n • 若第一階段額滿，將於 4/22（二）21:00 起開放候補申請。\n • 候補亦可自由選擇入住晚數。\n • 候補訂房請至報名系統中進行申請。\n\n取消與退款規則\n • 若需取消訂房，請於 5/31（六）23:59 前聯繫飯店申請退款。\n • 6/01（00:00）後取消訂房，恕不退還款項，請特別注意。\n\n其他飯店相關注意事項及規定請至 UTFG 官方網站確認。\n\n請詳閱以上訂房須知，若仍有疑問，請透過粉絲專頁或是 utfgtw@gmail.com 詢問 UTFG 工作團隊。",
+                "deluxeDoubleRoom": "豪華客房（一大床）（兩人房）",
+                "deluxeTwinRoom": "豪華客房（兩小床）（兩人房）",
+                "familyTwin": "家庭客房（四人房）",
+                "sheratonSuite": "喜來登套房（兩人房）"
+            }
+        }
+    },
+    "name": {
+        "hotel": {
+            "sheratonHsinchu": "新竹豐邑喜來登大飯店"
+        }
+    },
+    "errors": {
+        "noAvailableRoomTypes": "無房型可選擇",
+        "roomHasBeenSoldOut": "所選房型已完售"
+    },
+    "fields": {
+        "registrationAgreements": {
+            "title": "訂房須知與條款",
+            "hotelNotice": "按下我同意代表您已詳細閱讀、瞭解並同意以上條約與規則。"
+        },
+        "reservationTitle": "預定客房",
+        "selectRoomType": {
+            "title": "選擇類型"
+        },
+        "duringDate": "選擇日期區間",
+        "reserveInformation": "訂房資訊",
+        "reservationExtraOccupantType": "追加住客",
+        "period": "區間",
+        "roomType": "房型",
+        "checkinDate": "入住日期",
+        "checkoutDate": "退房日期",
+        "userIdentificationNumber": {
+            "title": "完整身分證字號 (外籍人士請填完整護照號碼)",
+            "description": "僅供飯店使用"
+        },
+        "quiz": "請回答以下問題",
+        "orderAmount": {
+            "title" : "房價預估總額",
+            "description" : "此為預估價格，實際價格以飯店提供之訂房同意書為準。"
+        },
+        "perNight" : "每晚",
+        "selectedRoomType": "已選擇的房型",
+        "showSoldOutRooms" : "顯示已售完之房型"
+    },
+    "room": {
+        "name": {
+            "normal": "一般房",
+            "silent": "寧靜房"
+        }
+    },
+    "mails": {
+        "completed": {
+            "subject": "預訂成功",
+            "completedText": "住房預訂成功, {userNickname}",
+            "thanksForReservation": "感謝您的住房預訂，我們期待在本屆 {eventName} 見到您。",
+            "reservationData": "預定資料",
+            "emailReason": "你收到這封郵件的原因是這個電子郵件地址在 UTFG 訂房系統預定成功，如果有任何問題，請與 UTFG 活動官方聯絡。",
+            "reminderForHotelNotification": "飯店方預計於 4/21 ~ 4/25 間寄出相關通知，敬請留意來自喜來登飯店的確認信件，付款後才視為完成訂房",
+            "reminderForRoomLocation": "活動期間的實際住宿房間將由飯店安排於東館或西館，恕無法指定或保證入住哪一館。"
+        }
+    },
+    "messages": {
+        "completed": "已完成住房預訂",
+        "reserveCompleted": "您已完成住房預訂，若有問題請聯絡新竹豐邑喜來登大飯店。",
+        "pending": "訂房資料處理中",
+        "reservePending": "訂房資料處理中，後續請檢查電子信箱內來自喜來登飯店之確認信。",
+        "noSelectablePeriods" : "無可選區間",
+        "disappearedRoomMeansSoldOut" : "未出現之房型表示已售完",
+        "roomTypesLoading" : "可選房型讀取中",
+        "allRoomTypesSoldOut" : "無符合條件之房型或已售完"
+    },
+    "status": {
+        "pending": "已預定",
+        "complete": "已完成",
+        "soldOut" : "已售完",
+        "created" : "已建立",
+        "refunded" : "已退款",
+        "reserved" : "保留"
+    },
+    "day":{
+        "3":"三天兩夜",
+        "4":"四天三夜"
+    },
+    "extraOccupantType": {
+        "None": "無",
+        "Adult": "一位成人",
+        "Children": "一位兒童（6-12 歲）",
+        "ChildrenUnder6": "一位兒童（6 歲以下）"
+    }
+}

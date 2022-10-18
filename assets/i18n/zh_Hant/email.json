@@ -1,0 +1,6 @@
+{
+  "serviceName": "電子郵件",
+  "errors": {
+    "serviceUnavailable": "Email 服務暫時無法使用，請稍後再試。"
+  }
+}

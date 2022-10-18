@@ -1,0 +1,35 @@
+{
+    "serviceName": "打卡",
+    "fields" : {
+        "isMakeUp" : "補打卡",
+        "isPunchIn" : "上下班",
+        "punchTime" : "時間",
+        "status": "狀態"
+    },
+    "values" : {
+
+    },
+    "actions" :{
+    },
+    "messages": {
+        "punchCanceled": "由於短時間內的相反打卡，已取消前一筆打卡紀錄",
+        "consequentPunchIn": "你前一次可能忘了打下班卡，請記提出補打卡申請",
+        "consequentPunchOut": "你前一次可能忘了打上班卡，請記提出補打卡申請"
+    },
+    "errors": {
+        "registrationQueryFailed": "查無該參加者，可能查詢條件錯誤或系統沒有回應",
+        "missingPunchInfo": "registrationID或registrationCardID應要有值",
+        "invalidScheduleInterval": "排班的開始時間在結束時間之後",
+        "cannotDeleteReviewedMakeUp": "不可刪除已核准的打卡修改申請",
+        "makeUpAlreadyApproved": "不可重複核准同一筆補打卡申請",
+        "duplicateMakeUpRequest": "已有對該筆打卡紀錄的修改申請",
+        "alreadyPunched": "不可在短時間內重複打卡",
+        "futurePunchTime": "不可將打卡時間設定於未來時間"
+    },
+    "status" : {
+        "present" : "出勤",
+        "extra" : "加班",
+        "absent" : "缺勤",
+        "upcoming" : "即將到來"
+    }
+}

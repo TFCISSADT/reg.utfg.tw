@@ -1,0 +1,6 @@
+{
+    "serviceName": "SMS",
+    "errors": {
+        "serviceUnavailable": "The SMS service is temporarily unavailable, please try again later."
+    }
+}

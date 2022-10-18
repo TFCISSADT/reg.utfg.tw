@@ -1,0 +1,31 @@
+{
+    "serviceName": "Config",
+    "errors": {
+        "duplicateSystemKey": "Duplicate system configuration code, please enter again",
+        "duplicateEventKey": "Duplicate event code, please enter again",
+        "duplicateEventConfig": "Duplicate event subsystem configuration, please refresh and try again"
+    },
+    "fields": {
+        "system": {
+            "systemKey": "System Code",
+            "itemName": "System"
+        },
+        "config": {
+            "configID": "Settings ID",
+            "config": "Config",
+            "itemName": "Settings"
+        },
+        "event": {
+            "eventID": "Event ID",
+            "eventKey": "Event Code",
+            "eventName": "Event Name",
+            "eventArchived": "Archived",
+            "itemName": "Events"
+        },
+        "eventConfig": {
+            "eventConfigID": "Event Subsystem Config ID",
+            "eventConfig": "Event Subsystem Config",
+            "itemName": "Event Subsystem Config"
+        }
+    }
+}

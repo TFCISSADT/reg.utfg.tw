@@ -1,0 +1,176 @@
+{
+    "serviceName": "活動",
+    "title": "參加與投稿 UTFG 活動",
+    "fields": {
+        "name": "欄位名稱或文字",
+        "description": "欄位說明（可為空）",
+        "type": "欄位類型",
+        "availableForms": "所有活動",
+        "myForms": "我的活動",
+        "previousResponses": "填寫紀錄",
+        "previousResponsesDescription": "按下編輯按鈕後可在下方查詢或編輯先前送出的資料",
+        "openTimestamp": "開放時間",
+        "closeTimestamp": "截止時間",
+        "endeditTimestamp": "編輯截止時間",
+        "responses": "回覆",
+        "form": {
+            "formID" : "表單編號",
+            "formOwnerID" : "表單擁有者",
+            "formTitle" : "表單標題",
+            "formDescription" : "表單說明",
+            "formConfig" : {
+                "_name" : "表單設定",
+                "openTimestamp" : "開放時間",
+                "closeTimestamp" : "截止時間",
+                "requireRegistered" : "是否需要報名才能填寫",
+                "requireInternalLabel" : "是否需要特殊身份 (內部標籤，若不清楚請洽詢資訊組）",
+                "maxTotalResponses" : "總最大填寫次數",
+                "maxResponsesPerUser" : "每人最大填寫次數",
+                "formCoverURL" : "表單封面圖片網址",
+                "lockAfterFill" : "填寫後是否鎖定回應內容不允許修改",
+                "notifyEmail" : "表單相關通知信箱",
+                "statusUserLabels" : "自動增減使用者標籤（當回應狀態到指定狀態時，將會自動將指定的標籤新增至使用者，而原本的將會被刪除）",
+                "statusInternalLabels" : "自動增減使用者標籤（當回應狀態到指定狀態時，將會自動將指定的標籤新增至使用者，而原本的將會被刪除，特殊功能通常不需使用，若不清楚請洽詢資訊組））"
+            },
+            "formBlocks" : {
+                "_name" : "表單區塊",
+                "id" : "表單區塊編號",
+                "type" :  "類型",
+                "name" :  "名稱",
+                "description" :     "說明",
+                "options" :   "選項",
+                "defaultValue" :  "預設值",
+                "max" :     "最大值",
+                "min" :   "最小值",
+                "required" :  "是否必填",
+                "validation" :  "驗證"
+            },
+            "formIsPublic" : "表單是否公開",
+            "formToken" : "表單填寫 Token",
+            "userPermissions" : {
+                "isFormOwner" : "是否為表單擁有者",
+                "formPermissionAllowFill" : "是否允許填寫表單",
+                "formPermissionAllowCreate" : "是否允許建立表單",
+                "formPermissionAllowRead" : "是否允許讀取表單及回應",
+                "formPermissionAllowEdit" : "是否允許編輯表單及回應",
+                "formPermissionAllowDelete" : "是否允許刪除回應",
+                "formPermissionAllowTranslate" : "是否允許翻譯表單"
+            }
+        },
+        "formResponse": {
+            "formResponseID" : "表單回應編號",
+            "formResponse" : "表單回應",
+            "formResponseStatus" : "表單回應狀態",
+            "formResponseRemarks" : "表單回應備註"
+        }
+    },
+    "enums": {
+        "formBlockType":{
+            "input": "簡答與詳達(文字輸入框)",
+            "text": "標題與說明(僅文字)",
+            "radio": "選擇題",
+            "number": "數字輸入框",
+            "checkbox": "核取方塊",
+            "datetime": "日期與時間",
+            "date": "日期",
+            "time": "時間"
+        },
+        "formResponseStatus":{
+            "Created": "已建立",
+            "Processing": "處理中",
+            "Completed": "已完成",
+            "Deleted": "已刪除",
+            "EditRequired": "需要編輯",
+            "Accepted": "已接受",
+            "Rejected": "已拒絕",
+            "Awarded": "已得獎",
+            "Unawarded": "未得獎"
+        }
+    },
+    "types": {
+        "input": "簡答與詳達(文字輸入框)",
+        "text": "標題與說明(僅文字)",
+        "radio": "選擇題",
+        "number": "數字輸入框",
+        "checkbox": "核取方塊",
+        "datetime": "日期與時間",
+        "date": "日期",
+        "time": "時間"
+    },
+    "viewMethod": {
+        "title": "用以下角度觀看：",
+        "readonly": "唯讀",
+        "modifyable": "編輯"
+    },
+    "actions": {
+        "viewSchema": "編輯表單",
+        "viewResponses": "表單回應",
+        "editPermissions": "編輯權限",
+        "editTags": "編輯標籤"
+    },
+    "status": {
+        "created": "已建立",
+        "processing": "處理中",
+        "completed": "已完成",
+        "deleted": "已刪除",
+        "editrequired": "需要編輯",
+        "accepted": "已接受",
+        "rejected": "已拒絕",
+        "awarded": "已得獎",
+        "unawarded": "未得獎"
+    },
+    "errors": {
+        "formcloseTimestampriched": "已達截止時間",
+        "validation": {
+            "typeInvalid": "錯誤的格式，請檢查後再試",
+            "required": "必填",
+            "numberInvalid": "無效的數字，請檢查後再試",
+            "optionInvalid": "無效的選項，請檢查後再試"
+        },
+        "formNotOpenYet": "表單尚未開放填寫",
+        "formClosed": "表單已停止接受資料",
+        "formRequireRegistered": "填寫此表單前需要先報名活動",
+        "formRequireInternalLabel": "填寫此表單需要特殊身份，請確認後再進行填寫，若有問題請聯絡官方",
+        "formRechedMaxResponseCount": "已達可填寫次數上限",
+        "formRechedMaxResponseCountPerUser": "您已達可填寫次數上限",
+        "formNotEditable": "表單已無法編輯",
+        "formNotDeletable": "表單已無法刪除"
+    },
+    "messages": {
+        "formSubmitSuccessful": "送出成功！"
+    },
+    "mails": {
+        "notify": {
+            "filled" : {
+                "subject" : "表單 {formTitle} 收到新的回應",
+                "notifyContent": "使用者 {userNickname} (User ID: {userID}) 填寫了表單 {formTitle} (Form ID: {formID})"
+            },
+            "edited": {
+                "subject": "表單 {formTitle} 回應被被更新",
+                "notifyContent": "使用者 {userNickname} (User ID: {userID}) 更新了表單 {formTitle} (Form ID: {formID})"
+            },
+            "emailReason": "你收到這封郵件的原因是這個電子郵件地址已被登記在表單通知信箱列表中，如果有任何問題，請與 UTFG 活動官方聯絡。"
+        },
+        "filled": {
+            "subject": "已經收到您的 {formTitle} 表單回應",
+            "title": "表單填寫成功",
+            "received": "我們已收到您的表單回應 (ID: {formResponseID})，請耐心等待處理結果，謝謝您的填寫！",
+            "emailReason": "你收到這封郵件的原因是這個電子郵件地址所綁定之帳號在系統中填寫表單，如果有任何問題，請與 UTFG 活動官方聯絡。"
+        },
+        "edited": {
+            "subject": "已經收到您的 {formTitle} 表單的更新資料",
+            "title": "表單更新成功",
+            "edited": "我們已收到您的表單更新資料 (ID: {formResponseID})，請耐心等待處理結果，謝謝您的填寫！",
+            "emailReason": "你收到這封郵件的原因是這個電子郵件地址所綁定之帳號在系統中更新表單，如果有任何問題，請與 UTFG 活動官方聯絡。"
+        },
+        "editRequired":{
+            "subject": "您的 {formTitle} 表單資料需要編輯",
+            "title": "表單資料需要編輯",
+            "requireEdit": "不好意思，您的表單資料 (ID: {formResponseID}) 需要您再次編輯，謝謝您的配合！",
+            "reason": "工作團隊備註 : {formResponseRemarks}",
+            "emailReason": "你收到這封郵件的原因是這個電子郵件地址所綁定之帳號在系統中填寫的表單需要更新，如果有任何問題，請與 UTFG 活動官方聯絡。"
+        },
+        "responseBelow": "以下為表單回應內容 : "
+    }
+
+}
