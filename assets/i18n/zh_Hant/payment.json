@@ -1,0 +1,94 @@
+{
+    "serviceName": "付款",
+    "errors": {
+        "duplicateCouponCode": "此優惠代碼已經存在於系統內。",
+        "unsupportedPaymentGateway": "不支援此付款閘道。",
+        "unsupportedPaymentMethod": "此付款閘道不支援此付款方式。",
+        "paymentMethodUnavailable": "目前無法使用此付款方式，請選擇其他付款方式。",
+        "paymentAmountExceedUpperLimit": "付款金額超過此付款方式金額上限，請選擇其他付款方式。",
+        "paymentGatewayUnexceptedError": "付款閘道發生錯誤，請稍後再試。",
+        "newebPayTradeShaNotMatch": "藍新金流交易驗證碼不符。",
+        "ecpayTradeShaNotMatch": "綠界金流交易驗證碼不符。",
+        "orderAlreadyPaidOrHasInfo": "此訂單已經付款或已有付款資訊，請重新整理頁面。",
+        "orderExpired": "此訂單已經過期，請等待系統清除過期訂單後，重新報名/預定。",
+        "serviceUnavailable": "服務暫時無法使用，請稍後再試。",
+        "onsitePaymentCantRetry": "現場付款無法重新付款。",
+        "invalidCouponCode": "此優惠代碼無效。",
+        "couponSystemUnmatch": "此優惠代碼無法使用於此系統。",
+        "couponRunOutOfUsage": "此優惠代碼已經被使用完畢。",
+        "couponAlreadyExpired": "此優惠代碼已經過期。",
+        "noAvailablePaymentMethods": "目前沒有可使用的付款方式。",
+        "orderExceededRetryTime": "此訂單已經超過可重新付款之時間，請等待約 20 分鐘後系統自動清除訂單後重新操作",
+        "ecpayCreditCardCanNotRetry": "信用卡付款無法重新進行付款，請在原付款網頁完成交易，或等待系統自動清除訂單後重新操作",
+        "oenRetryTimeout": "此交易還在進行中，若付款失敗請稍待十分鐘後再行嘗試。"
+    },
+    "status": {
+        "paid": "已付款",
+        "unpaid": "未付款",
+        "pending": "等待付款",
+        "processing": "付款處理中",
+        "failed": "付款失敗",
+        "created": "已建立",
+        "refunded": "已退款",
+        "cancelled": "已取消",
+        "expired": "已過期",
+        "reserved" : "保留中",
+        "deleted" : "已刪除",
+        "completed" : "已完成"
+    },
+    "actions": {
+        "viewOrder": "檢視訂單",
+        "payNow": "立即付款",
+        "checkout": "前往付款"
+    },
+    "paymentMethods": {
+        "PayPal": "PayPal (僅限海外)",
+        "CVS": "超商代碼 (僅限台灣國內)",
+        "CC": "信用卡",
+        "ATM": "ATM 虛擬帳號 (僅限台灣國內)",
+        "OnSite": "現場付款"
+    },
+    "fields": {
+        "order": {
+            "itemName": "訂單",
+            "orderID": "訂單 ID",
+            "orderToken": "訂單代碼",
+            "orderPaymentGatewayOrderNumber": "付款閘道訂單編號",
+            "orderDescription": "內容",
+            "orderPaymentInfo": "付款資訊",
+            "orderReturnCode": "回傳代碼",
+            "orderReturnMessage": "回傳訊息",
+            "orderAmount": "付款金額",
+            "hotelorderAmount": "房價總額",
+            "orderRedirectTo": "導向 URL",
+            "orderLanguage": "語言",
+            "orderExpiredAt": "過期時間",
+            "orderPaidAt": "付款時間"
+        },
+        "coupon": {
+            "itemName": "優惠代碼",
+            "couponID": "優惠代碼 ID",
+            "couponCode": "優惠代碼",
+            "couponDiscount": "折扣",
+            "couponSystem": "適用系統",
+            "couponMaxUsage": "可使用次數",
+            "couponLeftUsage": "剩餘可使用次數",
+            "couponExpiredAt": "過期時間"
+        },
+        "paymentConfig": {
+            "itemName": "付款設定",
+            "paymentConfigID": "付款設定 ID",
+            "paymentConfigPaymentGateway": "付款閘道",
+            "paymentConfigPaymentMethod": "付款方式",
+            "paymentConfigOrder": "優先順序",
+            "paymentConfig": "付款設定",
+            "paymentConfigIsActive": "是否正在使用中",
+            "paymentConfigIsEnabled": "是否啟用",
+            "paymentConfigUpperLimit": "金額上限"
+        },
+        "couponUsageLog": {
+            "itemName": "優惠代碼使用紀錄",
+            "couponUsageLogID": "優惠代碼使用紀錄 ID"
+        }
+    }
+}

@@ -1,0 +1,94 @@
+{
+    "serviceName": "Payment",
+    "errors": {
+        "duplicateCouponCode": "This promotion code is already in the system.",
+        "unsupportedPaymentGateway": "This payment gateway is not supported.",
+        "unsupportedPaymentMethod": "This payment gateway does not support this payment method.",
+        "paymentMethodUnavailable": "This payment method is currently unavailable, please select another payment method.",
+        "paymentGatewayUnexceptedError": "An error occurred in the payment gateway, please try again later.",
+        "newebPayTradeShaNotMatch": "NewebPay transaction verification code does not match.",
+        "ecpayTradeShaNotMatch": "ECPay transaction verification code does not match.",
+        "orderExpired": "This order has expired, please wait for the system to clear the expired order and re-register/reserve.",
+        "serviceUnavailable": "The service is temporarily unavailable, please try again later.",
+        "onsitePaymentCantRetry": "On-site payment cannot be repaid.",
+        "paymentAmountExceedUpperLimit": "The payment amount exceeds the maximum amount of this payment method, please choose another payment method.",
+        "orderAlreadyPaidOrHasInfo": "This order has already been paid or contains payment information, please refresh the page.",
+        "invalidCouponCode": "This promo code is invalid.",
+        "couponSystemUnmatch": "This promo code cannot be used in this system.",
+        "couponRunOutOfUsage": "This promo code has already been used.",
+        "couponAlreadyExpired": "This promo code has expired.",
+        "noAvailablePaymentMethods": "No current payment method is available.",
+        "orderExceededRetryTime": "Exceeded time allowed time for retrying payment for this order, please wait about 20 minute for the system to clear the order before attempting again",
+        "ecpayCreditCardCanNotRetry": "Unable to retry transaction on payment card, please try submitting on the payment page again, or wait for the system to automatically clear the order before trying again",
+        "oenRetryTimeout": "The transaction is still in progress. If the payment fails, please wait for ten minutes before trying again."
+    },
+    "status": {
+        "paid": "Paid",
+        "unpaid": "Unpaid",
+        "pending": "Waiting for payment",
+        "processing": "Processing payment",
+        "failed": "Payment failed!",
+        "refunded": "Refunded",
+        "cancelled": "Cancelled",
+        "expired": "Expired",
+        "created": "Created",
+        "reserved": "Reserved",
+        "deleted": "Deleted",
+        "completed": "Completed"
+    },
+    "actions": {
+        "viewOrder": "View order",
+        "payNow": "Pay now",
+        "checkout": "Checkout"
+    },
+    "fields": {
+        "order": {
+            "orderPaymentInfo": "Payment Info",
+            "orderID": "Order ID",
+            "orderToken": "Order Token",
+            "orderPaymentGatewayOrderNumber": "Payment Gateway Order Number",
+            "orderDescription": "Description",
+            "itemName": "Order",
+            "orderReturnCode": "Return Code",
+            "orderReturnMessage": "Return Message",
+            "orderAmount": "Payment amount",
+            "hotelorderAmount": "Payment amount",
+            "orderRedirectTo": "Redirect to",
+            "orderLanguage": "Language",
+            "orderExpiredAt": "Expired At",
+            "orderPaidAt": "Paid At"
+        },
+        "coupon": {
+            "couponSystem": "Applied System",
+            "itemName": "Promo Code",
+            "couponID": "Promo Code ID",
+            "couponCode": "Promo Code",
+            "couponDiscount": "Discount",
+            "couponMaxUsage": "Max Usage",
+            "couponLeftUsage": "Usage Left",
+            "couponExpiredAt": "Expired at"
+        },
+        "paymentConfig": {
+            "paymentConfigIsActive": "Active",
+            "itemName": "Payment Setting",
+            "paymentConfigID": "Payment Setting ID",
+            "paymentConfigPaymentGateway": "Payment Gateway",
+            "paymentConfigPaymentMethod": "Payment Method",
+            "paymentConfigOrder": "Order",
+            "paymentConfig": "Payment Config",
+            "paymentConfigIsEnabled": "Enabled",
+            "paymentConfigUpperLimit": "Amount Upper Limit"
+        },
+        "couponUsageLog": {
+            "itemName": "Promo Code History",
+            "couponUsageLogID": "Promo Code History ID"
+        }
+    },
+    "paymentMethods": {
+        "PayPal": "PayPal (Overseas)",
+        "CVS": "In-store Code (For Taiwan local only)",
+        "CC": "Credit Card",
+        "ATM": "ATM Payment (For Taiwan local only)",
+        "OnSite": "On-site"
+    }
+}

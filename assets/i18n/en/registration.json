@@ -1,0 +1,228 @@
+{
+    "serviceName": "Registration",
+    "fields": {
+        "noorder": {
+            "noorderTitle": "Not registered yet",
+            "noorderDescription": "You have not registered for this year's UTFG",
+            "noorderButton": "Register Now"
+        },
+        "noEvent": {
+            "noEventDescription": "Please register at the event page"
+        },
+        "registration": {
+            "registrationCardID": "RFID UID",
+            "registrationCardStatus": "Card Status",
+            "registrationID": "Registration Number",
+            "registrationNumber": "Registration Number",
+            "registrationShirtSize": "T-Shirt Size",
+            "registrationBadgeText": "Badge Name",
+            "registrationBadgeFirstLine": "Badge First Line",
+            "registrationBadgeSecondLine": "Badge Second Line",
+            "registrationCardInternalID": "RFID Internal ID",
+            "registrationDonateAmount": "Extra Donate Amount",
+            "registrationAmount": "Total Amount",
+            "registrationAdditionalInfo": "Additional Info",
+            "registrationStatus": "Registration Status",
+            "registrationSouvenirStatus": "Souvenir Status",
+            "itemName": "Registration Data",
+            "title": "Register for UTFG 2025",
+            "registrationStatusIndex": "Registration Status",
+            "startFromAndFreeDonation": "or higher (donation)",
+            "registrationAvatar": "Avatar",
+            "registrationSelectedDates": "Registration Date",
+            "alreadyRegistrationDates": "Date already registered",
+            "registrationParadiseTickets": "Purchase Theme Park: Discovery World Ticket",
+            "registrationFoodTickets": "Purchase Hotel Buffet Voucher",
+            "additionalShirtS": "Additional School Carnival Event T-Shirt (Size: S)",
+            "additionalShirtM": "Additional School Carnival Event T-Shirt (Size: M)",
+            "additionalShirtL": "Additional School Carnival Event T-Shirt (Size: L)",
+            "additionalShirtLL": "Additional School Carnival Event T-Shirt (Size: LL)",
+            "additionalShirt3L": "Additional School Carnival Event T-Shirt (Size: 3L)",
+            "additionalShirt4L": "Additional School Carnival Event T-Shirt (Size: 4L)",
+            "additionalShirt5L": "Additional School Carnival Event T-Shirt (Size: 5L)",
+            "additionalBand": "Additional Event Lanyard Special Edition",
+            "additionalPoster": "Additional Event Poster",
+            "additionalCardCase": "Additional Event Badge Holder",
+            "additionalYearbook": "Additional Graduation Yearbook"
+        },
+        "level": {
+            "levelIsDonatable": "Availability of Sponsorship",
+            "levelID": "Membership ID",
+            "levelKey": "Membership Key",
+            "levelWeight": "Level Weight",
+            "levelOrder": "Level Order",
+            "levelPrice": "Price",
+            "levelImageURL": "Image URL",
+            "levelName": "Name",
+            "levelLimitCount": "Quota Limit",
+            "levelInternalLabel": "Internal Label",
+            "levelAdditionalConfig": "Additional Settings",
+            "levelHasShirt": "Has T-Shirt",
+            "levelIsSpecial": "Has Special Level",
+            "levelIsHidden": "Hide Level",
+            "levelIsEnabled": "Enable Level",
+            "itemName": "Registration Membership"
+        },
+        "registrationUpgrade": {
+            "registrationUpgradeStatus": "Upgrade Status",
+            "registrationUpgradeID": "Upgrade ID",
+            "registrationUpgradeAmount": "Upgrade Amount",
+            "itemName": "Upgrade Data"
+        },
+        "registrationToken": {
+            "registrationTokenID": "Registration Token ID",
+            "registrationToken": "Registration Token",
+            "itemName": "Special Registration Token"
+        },
+        "message": {
+            "successTitle": "Register Success",
+            "successContent": "Remember to add the event to your calendar so you don't miss out on the fun!",
+            "payTitle": "Not yet paid",
+            "payContent1": "You have not yet made a payment, please pay before",
+            "payContent2": ".",
+            "reservedNotice": "You have not purchased the registration today, or your registration data is waiting to be processed, please contact the official if you have any questions."
+        },
+        "selectedRolePreview": {
+            "title": "Preview",
+            "seaViewHoneymoonSuite": "Sea View Honeymoon Suite",
+            "payUponReservation": "Pay Upon Reservation",
+            "donation": "Donation",
+            "total": "Total"
+        },
+        "selectedRoleDetails": {
+            "title": "Details"
+        },
+        "registraionAgreements": {
+            "title": "Registration Terms and Conditions"
+        },
+        "registrationAgreements": {
+            "title": "Registration Terms and Condition Agreement"
+        },
+        "onSiteRegistration": {
+            "selectDatesTitle": "Select Date",
+            "title": "On-site registration information"
+        }
+    },
+    "messages": {
+        "registrationUpdatedSuccessful": "Registration information updated successfully!",
+        "registrationPaidInfo": "Remember to add the event to your calendar so you don't miss out on the fun",
+        "registrationExpiredInfo": "Your payment has expired, please register again.",
+        "registrationNotPaidDueDate": "You haven't paid yet, please pay before {{date}}.",
+        "registrationReservedInfo": "You have not purchased today's registration, or your registration information is waiting to be processed, please contact the official if you have any questions.",
+        "registrationDonateAmountShouldBeMultiplyOf": "Donation amount must be a multiple of {{step}}.",
+        "registrationInfoOnlyCanEditAfterPayment": "Registration information can only be edited after payment is made.",
+        "clickToViewSizeChart": "Click here to view the size chart",
+        "warningSpecialSymbols": "Using special symbols may result in print issues",
+        "avatarAllowRememberToUpload": "Your level can upload avatar, please remember to modify the avatar data on the registration status page",
+        "uploadAvatarSuccessful": "Avatar uploaded successfully",
+        "avatarUploadDeadline": "Editing will end on 2025/05/25 23:59 (GMT+8)"
+    },
+    "actions": {
+        "upgradeLevel": "Upgrade Level",
+        "upgradeAddon": "Additional Purchase",
+        "manageRegistration": "Manage",
+        "startRegistration": "Start Registration",
+        "iAgree": "I Agree",
+        "selectRole": "Choose Level",
+        "openBenefitsDetail": "Benefits Detail",
+        "upgradeDate": "Additional Purchase Date",
+        "preOnSiteRegister": "On-site Pre-registration",
+        "upgradeTips": "When purchasing additional items, please select the original level's additional purchase option.",
+        "reselectImage": "Re-select Image",
+        "selectImage": "Select Image"
+    },
+    "status": {
+        "completed": "Registration Completed",
+        "failure": "Registration Failed",
+        "reserved": "Registration On Hold"
+    },
+    "errors": {
+        "alreadyRegistered": "Your registration information is already in the system, please go to the registration status page to check or proceed to payment.",
+        "duplicateLevelKey": "Identical membership code already exists",
+        "registrationAlreadyPaid": "This registration has been paid, please refresh the page to see the current status",
+        "registrationNotPaid": "This registration has not been paid yet",
+        "registrationRefunded": "This registration has been refunded",
+        "levelNotSelected": "Registration membership has not been selected yet",
+        "registrationTokenInvalid": "This registration URL is invalid",
+        "registrationTokenRequired": "Permission required to register with this level",
+        "levelRegistrationLevelAmountExceeded": "The selected registration membership is fully taken up",
+        "failedToPay": "Payment failed, please go back to the registration status page and retry payment",
+        "registrationDataEditDeadlined": "The expiration date for editing the registration information has passed, please contact the con staff if you have any other requests",
+        "registrationCannotRetryPayment": "This registration information has already been paid or cannot retry on selected payment method, please refresh the page or wait for an hour until the order gets deleted",
+        "registrationCannotUpgrade": "This registration information has not yet been paid or has unprocessed upgrade information, and cannot be upgraded",
+        "registrationUpgradeToLowerLevelNotAllowed": "Cannot downgrade registration membership",
+        "registrationUpgradeCantRetryPayment": "This upgrade has already been paid for or has payment information included, hence it is unable to retry the payment",
+        "registrationBadgeTextContainsEmoji": "Badge text cannot insert emoji, please check again and resend",
+        "registrationAttitionalInfoRequired": "Your registration information is incomplete, please check again and resend",
+        "registrationDataEditNotAllowed": "The membership you have registered does not allow modifying your registration information, please contact con staff if you require further requests",
+        "registrationDateExists": "Already registered for this date",
+        "registrationSelectedDatesRequired": "Please select the date of registration",
+        "registrationSelectedDatesInvalid": "The registration date you selected is invalid, please review and submit again",
+        "registrationAddonLimitExceeded": "The selected add-on item is sold out",
+        "registrationAddonCantRemove": "Cannot remove add-on item or select a lower add-on item",
+        "registrationCantReserveCheckIn": "You have not paid for registration or have reserved check-in, unable to reserve check-in",
+        "checkInReservationExists": "You have existing check-in reservation data",
+        "checkInReservablePeriodOverlapped": "There are overlapping check-in periods",
+        "checkInReservationNotFound": "Check-in reservation data not found",
+        "checkInReservationNoShow": "You did not cancel the reservation before the end of the reservation time, unable to delete the reservation data",
+        "checkInReservationArrived": "You have arrived at the reservation time, unable to delete the reservation data",
+        "checkInReservablePeriodNotFound": "Check-in period not found",
+        "checkInReservablePeriodFull": "Check-in period is full",
+        "checkInReservablePeriodEnded": "Check-in period has ended"
+    },
+    "payment": {
+        "description": "Registration Fee",
+        "upgradeDescription": "Registration Upgrade Fee"
+    },
+    "mails": {
+        "registered": {
+            "subject": "Registration Success",
+            "registeredText": "{userNickname}, your registration is successful",
+            "thanksForRegistered": "Thank you for registering. We look forward to seeing you at this year's {eventName}.",
+            "registrationData": "Registration Data",
+            "emailReason": "You are receiving this email because this email address is a request to sign up for {eventName} in the UTFG registration system. If you have any questions, please contact UTFG event officials."
+        },
+        "edited": {
+            "subject": "Registration Data Editing",
+            "editedText": "Registration data edited successfully, {userNickname}",
+            "thanksForEdited": "Your registration data has been successfully edited and we look forward to seeing you at this year's {eventName}.",
+            "registrationData": "Registration Data",
+            "emailReason": "The reason you are receiving this email is that this email address is requesting a change to the {eventName} registration information in the UTFG registration system, please contact UTFG event officials if you have any questions."
+        },
+        "upgraded": {
+            "subject": "Registration membership upgraded successfully",
+            "upgradedText": "Registration level upgraded successfully, {userNickname}",
+            "upgradeData": "Upgrade data",
+            "originalLevel": "Previous membership",
+            "upgradedLevel": "Upgrade membership",
+            "noticeEditSouvenirData": "If you are upgrading your membership to sponsor level, don't forget to update the data of your souvenir on the register page in order to get your souvenirs prepared.",
+            "buttonText": "Update souvenir information",
+            "thanksForUpgraded": "Your membership level has successfully upgraded, we're looking forward to seeing you at {eventName}.",
+            "buttonInvalid": "If above url is not working, please copy the url to address bar",
+            "emailReason": "You are receiving this email because this email address is requesting upgrade of registration level. If you have any questions, please contact UTFG event officials."
+        },
+        "checkIn": {
+            "viewQRCode": "View QR Code",
+            "qrcode": "Registration QR code",
+            "registrationData": "Registration Data",
+            "thanksForAttend": "Thank you for your participation and we hope you enjoy your time at {eventName}!",
+            "subject": "Registration Info",
+            "title": "{userNickname}, here's your registration information:",
+            "description": "Before arriving at the con ops, please turn the brightness of your screen to the brightest level and present this QR code at the counter for staff to scan.",
+            "qrcodeUsage": "Please adjust the screen brightness to the brightest level to facilitate scanning.",
+            "qrcodeInvalid": "If the QR code is not displayed correctly, click the button to view the QR code.",
+            "emailReason":"You are receiving this email because this email address is registered for UTFG 2025. If you have any questions, please contact UTFG event officials."
+        }
+    },
+    "notice": {
+        "Title": "Not registration period",
+        "timeContent1": "Start Time: {{time}}",
+        "timeContent2": "Close Time: {{time}}",
+        "Content": "Please refer to our announcement for details of on-site registration and more information."
+    },
+    "registrationCardStatus": {
+        "Unreceived": "Unclaimed",
+        "ReceivedByProxy": "Claimed by others",
+        "Received": "Claimed"
+    }
+}

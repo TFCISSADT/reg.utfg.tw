@@ -1,0 +1,42 @@
+{
+    "serviceName": "主題活動及任務",
+    "serviceTitle": "主題活動及任務",
+
+    "activityStatus": {
+        "submitted": "已完成回報",
+        "checkedIn": "已簽到",
+        "checkedOut": "已簽退",
+        "lastRecordDeleted": "已刪除最後一筆紀錄"
+    },
+
+    "errors": {
+        "notFound": "查無紀錄",
+        "badgeUidNotFound": "找不到卡片ID",
+        "userNotFound": "找不到使用者",
+        "underageNotAllowed": "禁止未成年者參與",
+        "outOfActiveTime": "活動尚未開放",
+        "reachedMaxSubmitOrHeadcountLimit": "已達活動打卡或回報次數上限",
+        "onlyPriorityLevelsAllowed": "指定身份優先入場時段",
+        "noFursuitLinkedToUser": "查無毛毛紀錄",
+        "boatScheduleNotFound": "查無船班紀錄",
+        "boatReservationNotFound": "查無船票",
+        "registrationNotPaid": "尚未完成報名付款",
+        "notSignedUpForChangeRoom": "未加購毛毛更衣室使用資格",        
+        "notIncludedInActivity": "不在活動名單內"
+    },
+
+    "userActivityStatusType": {
+        "checkedIn": "簽到",
+        "checkedOut": "簽退",
+        "autoCheckedOut": "自動簽退",
+        "noRecord": "無紀錄"
+    },
+
+    "themes": {
+        "DJ": "DJ Party"
+    },
+
+    "area": {
+        "UTFG2025_Hall": "UTFG 2025 會場"
+    }
+}

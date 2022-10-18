@@ -1,0 +1,227 @@
+{
+    "systemName": "UTFG Registration System",
+    "events": {
+        "UTFG2025": {
+            "registrationToS": "1. Registration Confirmation\n • You will receive a \"Registration Successful Notification Email\" after completing your registration.\n • If you do not receive the Email within three days after payment, please contact the event organizer immediately.\n • The organizer will not be responsible for any impact on your participation eligibility if you fail to contact us about not receiving the Email and cannot confirm your registration information during check-in.\n • Participants registering for the \"3rd Year Student\" tier, cancellations or refund requests will not be allowed once registration is completed. Please ensure everything is correct before registering.\n • One-day tickets are also available at the event, priced at NTD 800 / person, and the qualification is the same as \"1st Year Student.\"\n2. Registration Eligibility and Contact Information\n • For participants registering as \"3rd Year Student\", a staff member will confirm further details via the Email you provided, so please check your inbox for important notifications.\n • The organizer will primarily use Email for contact, including important information, event announcements, and related notices. Please ensure your inbox can receive emails to avoid impacting your participation rights.\n3. Registration Rules & Payment Instructions\n • Completing the registration is automatically considered agreeing to the event regulations and terms.\n • If you violate the regulations and fail to improve after being warned, the organizer can cancel your participation without a refund.\n • Credit/Debit Card Payment: Payment must be completed within one hour after\nsubmitting the registration info.\n • Bank Transfer Payment: Payment must be completed within three days after submitting the registration info.\n • Convenience Store Payment: Payment must be completed within three days\nafter submitting the registration info.\n • Overseas Participants: Please use credit/debit card for payment.\n4. Registration System Open Period\n • Account Creation Starting from: Thursday, March 27th, 2025, 21:00[GMT+8]\n • Event Registration Starting from: Tuesday, April 1st, 2025, 21:00[GMT+8] Ends at: Sunday, June 8th, 2025, 23:59[GMT+8]\n5. Registration Info Revise and Add-on Purchases\n • If you need to modify your registration details, please log into the registration system and make changes before the registration deadline.\n • If you wish to upgrade your registration tier after completing the registration, you can apply for an upgrade in the registration system, subject to an additional 5% handling fee.\n • Participants may purchase event souvenirs during registration with no additional handling fees.\n • Event souvenirs will not be available for sale during the event (July 19-20), so please purchase them during the registration period if needed.\n • Available add-on souvenirs include:\n  - School Carnival Event T-Shirt\n  - Event Lanyard Special Edition\n  - Event poster\n  - Event badge holder\n  - Graduation yearbook\n • Add-on souvenirs may be purchased by all participant tiers, with a maximum of five souvenirs per product.\n6. Cancellation and Refund Policy\n • Participants registering for \"3rd Year Student\" cannot apply for cancellation or refund after completing registration.\n • For other tiers, please email the UTFG teams if you want to cancel your registration before the Sunday, May 18th, 2025, 23:59[GMT+8].\n • The refund mechanism is as follows:\n  • A 10% handling fee and a 15 NTD transfer fee will be deducted, and the remaining amount will be refunded.\n  • Cancellations and refund requests will not be accepted after Sunday, May 18th, 2025, 23:59[GMT+8].\n7. Personal Data Usage Statement\n • Participants agree that, for the safety and management of the event, the organizer has the right to collect, process, and use the personal data provided by the participants solely for event-related purposes.\n8. Event Change Rights\n • The organizer reserves the right to adjust event rules and make changes. All final decisions will be based on the organizer's announcements.\n9. Contact Information\n • If you have any questions, please contact us via the official fan page or Email (utfgtw@gmail.com).",
+            "registrationNotice": "Please read the notes carefully. By completing your registration, you agree to the related rules.",
+            "enum": {
+                "additionalShirtS": {
+                    "zero": "Not Purchase",
+                    "one": "Purchase 1 Shirt (Size: S)",
+                    "two": "Purchase 2 Shirts (Size: S)",
+                    "three": "Purchase 3 Shirts (Size: S)",
+                    "four": "Purchase 4 Shirts (Size: S)",
+                    "five": "Purchase 5 Shirts (Size: S)"
+                },
+                "additionalShirtM": {
+                    "zero": "Not Purchase",
+                    "one": "Purchase 1 Shirt (Size: M)",
+                    "two": "Purchase 2 Shirts (Size: M)",
+                    "three": "Purchase 3 Shirts (Size: M)",
+                    "four": "Purchase 4 Shirts (Size: M)",
+                    "five": "Purchase 5 Shirts (Size: M)"
+                },
+                "additionalShirtL": {
+                    "zero": "Not Purchase",
+                    "one": "Purchase 1 Shirt (Size: L)",
+                    "two": "Purchase 2 Shirts (Size: L)",
+                    "three": "Purchase 3 Shirts (Size: L)",
+                    "four": "Purchase 4 Shirts (Size: L)",
+                    "five": "Purchase 5 Shirts (Size: L)"
+                },
+                "additionalShirtLL": {
+                    "zero": "Not Purchase",
+                    "one": "Purchase 1 Shirt (Size: LL)",
+                    "two": "Purchase 2 Shirts (Size: LL)",
+                    "three": "Purchase 3 Shirts (Size: LL)",
+                    "four": "Purchase 4 Shirts (Size: LL)",
+                    "five": "Purchase 5 Shirts (Size: LL)"
+                },
+                "additionalShirt3L": {
+                    "zero": "Not Purchase",
+                    "one": "Purchase 1 Shirt (Size: 3L)",
+                    "two": "Purchase 2 Shirts (Size: 3L)",
+                    "three": "Purchase 3 Shirts (Size: 3L)",
+                    "four": "Purchase 4 Shirts (Size: 3L)",
+                    "five": "Purchase 5 Shirts (Size: 3L)"
+                },
+                "additionalShirt4L": {
+                    "zero": "Not Purchase",
+                    "one": "Purchase 1 Shirt (Size: 4L)",
+                    "two": "Purchase 2 Shirts (Size: 4L)",
+                    "three": "Purchase 3 Shirts (Size: 4L)",
+                    "four": "Purchase 4 Shirts (Size: 4L)",
+                    "five": "Purchase 5 Shirts (Size: 4L)"
+                },
+                "additionalShirt5L": {
+                    "zero": "Not Purchase",
+                    "one": "Purchase 1 Shirt (Size: 5L)",
+                    "two": "Purchase 2 Shirts (Size: 5L)",
+                    "three": "Purchase 3 Shirts (Size: 5L)",
+                    "four": "Purchase 4 Shirts (Size: 5L)",
+                    "five": "Purchase 5 Shirts (Size: 5L)"
+                },
+                "additionalBand": {
+                    "zero": "Not Purchase",
+                    "one": "Purchase 1 Lanyard",
+                    "two": "Purchase 2 Lanyards",
+                    "three": "Purchase 3 Lanyards",
+                    "four": "Purchase 4 Lanyards",
+                    "five": "Purchase 5 Lanyards"
+                },
+                "additionalPoster": {
+                    "zero": "Not Purchase",
+                    "one": "Purchase 1 Poster",
+                    "two": "Purchase 2 Posters",
+                    "three": "Purchase 3 Posters",
+                    "four": "Purchase 4 Posters",
+                    "five": "Purchase 5 Posters"
+                },
+                "additionalCardCase": {
+                    "zero": "Not Purchase",
+                    "one": "Purchase 1 Card Case",
+                    "two": "Purchase 2 Card Cases",
+                    "three": "Purchase 3 Card Cases",
+                    "four": "Purchase 4 Card Cases",
+                    "five": "Purchase 5 Card Cases"
+                },
+                "additionalYearbook": {
+                    "zero": "Not Purchase",
+                    "one": "Purchase 1 Yearbook",
+                    "two": "Purchase 2 Yearbooks",
+                    "three": "Purchase 3 Yearbooks",
+                    "four": "Purchase 4 Yearbooks",
+                    "five": "Purchase 5 Yearbooks"
+                }
+            }
+        }
+    },
+    "actions": {
+        "create": "Create",
+        "read": "Read",
+        "update": "Update",
+        "delete": "Delete",
+        "cancel": "Cancel",
+        "confirm": "Confirm",
+        "close": "Close",
+        "next": "Next",
+        "prev": "Prev",
+        "edit": "Edit",
+        "backToMainPage": "Back to Main Page",
+        "back": "Back",
+        "clear": "Clear",
+        "view": "View",
+        "send": "Send",
+        "select": "Select",
+        "search": "Search",
+        "action": "Edit",
+        "buy": "Purchase",
+        "apply": "Apply",
+        "open": "Open",
+        "add": "Add",
+        "doConfirm": "Are you sure?"
+    },
+    "values": {
+        "none": "No registration data",
+        "noneBuy": "Not Yet Purchased",
+        "3days": "3-Day",
+        "days": "Day"
+    },
+    "errors": {
+        "unexcepted": "An unknown error occurred, please try again later, if the error persists, please contact the event organizers.",
+        "internalAuthenticationError": "Internal verification error, please check if the settings are correct.",
+        "unauthorized": "You have not yet logged in, please log in first and then proceed.",
+        "missingInternalLabel": "You do not have permission to use this feature.",
+        "invalidRecaptchaResponse": "Captcha verification failed, please wait before trying again.",
+        "insufficientPermission": "Insufficient authority",
+        "notFound": "This data is not found, please make sure it exists.",
+        "serviceUnavailable": "The service is temporarily unavailable, please try again later. If the error persists, please contact the event organizer.",
+        "eventNotFound": "Can't find this event, please confirm and try again.",
+        "notRegistered": "You have not yet registered for the event, please register first before proceeding.",
+        "eventArchived": "This event has been archived and the data cannot be changed.",
+        "imATeapot": "Your account triggered the security mechanism of the system. You should not be here.",
+        "invalidQuizAnswers": "Wrong random quiz answer, please check and try again.",
+        "accountRestricted": "Your account has been restricted from using this service. Please contact UTFG officials if you have any concerns.",
+        "paymentServiceUnavailable": "The payment service is temporarily unavailable, please try again later. If the error persists, please contact the event official.",
+        "notFursuiter": "You have not yet submitted to the Fursuit Roster, please do so and wait for approval before proceeding."
+    },
+    "levels": {
+        "UTFG2025": {
+            "1st": {
+                "title": "1st Year Student",
+                "subtitle": "",
+                "description": "",
+                "benefits": "Student ID\nEvent Lanyard\nAdmission Guidelines\nSchool Carnival Souvenirs"
+            },
+            "2nd": {
+                "title": "2nd Year Student",
+                "subtitle": "",
+                "description": "",
+                "benefits": "Student ID (Profile Picture Upload Optional)\nEvent Lanyard Special Edition\nAdmission Guidelines\nSchool Carnival Souvenirs\nEvent Poster\nGraduation Yearbook\nSchool Carnival Event T-Shirt\nEvent Badge Holder\nSchool Carnival Event Mat\nSchool Carnival Blanket\nOfficial Event Second Priority Entry"
+            },
+            "3rd": {
+                "title": "3rd Year Student",
+                "subtitle": "",
+                "description": "",
+                "benefits": "Student ID (Profile Picture Upload Optional)\nEvent Lanyard Special Edition\nAdmission Guidelines\nSchool Carnival Souvenirs\nEvent Poster\nGraduation Yearbook\nSchool Carnival Event T-Shirt (Exclusive color)\nEvent Badge Holder\nSchool Carnival Event Mat\nSchool Carnival Blanket\nOfficial Event Priority Entry\n3rd Year Exclusive Jacket\nT.Y.ARASHI Limited Edition Character YCH (Will be made into a nameplate and on-site event character standee)\nAfter Party Ticket x1\nReserve a slot and bring a friend to the after party!\nReserved Front Row Seat for Official Event and Group Photo\nPriority Hotel Booking for the Event Main Hotel"
+            },
+            "1stOnsite": {
+                "title": "1st Year Student (Onsite Registration)",
+                "subtitle": "",
+                "description": "",
+                "benefits": "Student ID\nEvent Lanyard Special Edition\nAdmission Guidelines"
+            }
+        }
+    },
+    "buttons": {
+        "support": "Support",
+        "aboutWebsite": "About website",
+        "languages": "Languages",
+        "logout": "Logout"
+    },
+    "fields": {
+        "common": {
+            "createdAt": "Created at",
+            "createdBy": "Creator",
+            "updatedAt": "Updated at",
+            "updatedBy": "Updater",
+            "deletedAt": "Deleted at",
+            "deletedBy": "Deleted by",
+            "expiredAt": "Expired at",
+            "remarks": "Remarks",
+            "status": "Status",
+            "actions": "Actions",
+            "userPermissions": "User Authorization",
+            "qrcode": "QR Code"
+        },
+        "audit": {
+            "itemName": "Audit log",
+            "auditID": "Audit ID",
+            "auditOperation": "Operation",
+            "auditTarget": "Target",
+            "auditTargetID": "Target ID",
+            "auditDataAfterOperation": "Data after operation"
+        },
+        "dashboard": {
+            "dashboardTitle": "Summary",
+            "dashboardfielled": "Registered events"
+        },
+        "pager": {
+            "total": "Total",
+            "items": "items",
+            "displaying": "Displaying"
+        }
+    },
+    "mails": {
+        "common": {
+            "buttonInvalid": "If the button above is not clickable, please copy this address to the browser address bar"
+        }
+    },
+    "messages": {
+        "createSuccessful": "Create Success",
+        "updateSuccessful": "Update Success",
+        "deleteSuccessful": "Delete Success",
+        "pleaseAdjustDeviceBrightness": "Please adjust device brightness to scan.",
+        "linked": "Linked"
+    }
+}

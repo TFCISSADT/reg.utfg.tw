@@ -1,0 +1,224 @@
+{
+    "serviceName": "報名",
+    "errors": {
+        "alreadyRegistered": "系統內已有您的報名資料，請至報名狀態頁面查看或進行付款。",
+        "duplicateLevelKey": "已有相同的身分代碼存在",
+        "registrationAlreadyPaid": "此報名資料已付款，請重新整理頁面查看目前狀況",
+        "registrationNotPaid": "此報名資料尚未付款",
+        "registrationRefunded": "此報名資料已退款",
+        "levelNotSelected": "報名身分尚未選擇",
+        "registrationTokenInvalid": "此報名身分網址無效",
+        "registrationTokenRequired": "您無權報名此身分",
+        "levelRegistrationLevelAmountExceeded": "所選之報名身分已額滿",
+        "failedToPay": "付款失敗，請回到報名狀態頁重新嘗試付款",
+        "registrationDataEditDeadlined": "報名資料編輯期限已過，若有其餘需求請聯絡活動主辦單位",
+        "registrationCannotRetryPayment": "此報名資料已有付款資料或所選付款方式無法重新嘗試付款，請重新整理或等待一小時後訂單清除",
+        "registrationCannotUpgrade": "此報名資料尚未付款或已有尚未處理的升等資料，無法進行升等",
+        "registrationUpgradeToLowerLevelNotAllowed": "無法將報名身分降級",
+        "registrationUpgradeCantRetryPayment": "此升等資料已經付款或是已有付款資料，無法重新嘗試付款",
+        "registrationAttitionalInfoRequired": "資料填寫不完全，請檢查後重新送出",
+        "registrationBadgeTextContainsEmoji": "識別證內容不可包含表情符號，請檢查後重新送出",
+        "registrationDataEditNotAllowed": "您所報名的身分不允許修改報名資料，若有其餘需求請聯絡活動主辦單位",
+        "registrationSelectedDatesRequired": "請選擇報名日期",
+        "registrationDateExists": "已經報名過此日期",
+        "registrationSelectedDatesInvalid": "您選的報名日期無效，請檢查後重新送出",
+        "registrationAddonLimitExceeded": "所選加購項目已售完",
+        "registrationAddonCantRemove": "無法移除加購項目或選擇較低的加購項目",
+        "registrationCantReserveCheckIn": "此報名資料尚未付款或已有報到資料，無法預約報到",
+        "checkInReservationExists": "已有預約報到資料存在",
+        "checkInReservablePeriodOverlapped": "已有其他報到時段重疊",
+        "checkInReservationNotFound": "找不到預約資料",
+        "checkInReservationNoShow": "您未於預約時間結束取消預約，無法刪除預約資料",
+        "checkInReservationArrived": "您已於預約時間抵達，無法刪除預約資料",
+        "checkInReservablePeriodNotFound": "找不到報到時段",
+        "checkInReservablePeriodFull": "報到時段已額滿",
+        "checkInReservablePeriodEnded": "報到時段已結束"
+    },
+    "messages": {
+        "registrationUpdatedSuccessful": "報名資訊更新成功！",
+        "registrationPaidInfo": "記得把活動加入行事曆，以免錯過精彩活動",
+        "registrationReservedInfo": "未購買今日的參加資格，或報名資料正在等待處理，若有任何疑問請洽詢主辦單位",
+        "registrationExpiredInfo": "您的付款已經逾期，請重新報名。",
+        "registrationNotPaidDueDate": "您尚未進行付款，請在 {{date}} 前付款。",
+        "registrationDonateAmountShouldBeMultiplyOf": "捐款金額須為 {{step}} 的倍數。",
+        "registrationInfoOnlyCanEditAfterPayment": "付款後才可編輯報名資料",
+        "clickToViewSizeChart": "點擊這裡檢視尺寸表",
+        "warningSpecialSymbols": "若使用特別符號可能會有無法顯示的風險",
+        "avatarAllowRememberToUpload": "您的身份可以上傳大頭貼，請記得至報名狀態頁修改大頭貼資料",
+        "uploadAvatarSuccessful": "大頭貼上傳成功",
+        "avatarUploadDeadline": "編輯將於 2025/05/25 23:59 (GMT+8) 截止"
+    },
+    "payment": {
+        "description": "活動報名費用",
+        "upgradeDescription": "活動報名升等費用"
+    },
+    "actions": {
+        "upgradeLevel": "變更身份",
+        "upgradeAddon": "加購",
+        "upgradeDate": "加購日期",
+        "manageRegistration": "管理報名",
+        "startRegistration": "開始報名",
+        "preOnSiteRegister": "預先現場報名",
+        "iAgree": "我同意",
+        "selectRole": "選擇身份",
+        "openBenefitsDetail": "了解所有福利",
+        "upgradeTips": "加購其他項目時請選擇原始等級的加購選項。",
+        "reselectImage": "重新選擇圖片",
+        "selectImage": "選擇圖片"
+    },
+    "status": {
+        "completed": "已完成報名",
+        "reserved": "報名保留中",
+        "failure": "報名失敗"
+    },
+    "notice": {
+        "Title": "非報名時間",
+        "Content": "非報名時間或報名尚未開始，現場報名或其他詳情請參閱我們的公告。",
+        "timeContent1": "開始時間: {{time}}",
+        "timeContent2": "結束時間: {{time}}"
+    },
+    "fields": {
+        "noorder": {
+            "noorderTitle": "尚未報名",
+            "noorderDescription": "您尚未報名本屆 UTFG ",
+            "noorderButton": "立即報名"
+        },
+        "noEvent": {
+            "noEventDescription": "請至活動頁面登記"
+        },
+        "registration": {
+            "title": "報名 UTFG 2025",
+            "itemName": "報名資料",
+            "registrationStatusIndex": "報名狀態",
+            "registrationID": "報名編號",
+            "registrationNumber": "報名編號",
+            "registrationShirtSize": "衣服尺寸",
+            "registrationSlipperSize": "拖鞋尺寸",
+            "registrationDiaogaSize": "吊嘎尺寸",
+            "registrationBadgeText": "識別證暱稱",
+            "registrationBadgeFirstLine": "識別證第一行",
+            "registrationBadgeSecondLine": "識別證第二行",
+            "registrationCardID": "RFID UID",
+            "registrationCardInternalID": "RFID Internal ID",
+            "registrationDonateAmount": "額外贊助金額",
+            "registrationAmount": "總金額",
+            "registrationAdditionalInfo": "其餘資訊",
+            "registrationStatus": "狀態",
+            "registrationCardStatus": "卡片狀態",
+            "registrationSouvenirStatus": "紀念品狀態",
+            "registrationSelectedDates": "報名日期",
+            "registrationAvatar": "大頭貼",
+            "alreadyRegistrationDates": "已報名日期",
+            "startFromAndFreeDonation": "起 | 自由捐贈",
+            "additionalShirtS": "加購學園祭紀念衣服 (尺寸: S)",
+            "additionalShirtM": "加購學園祭紀念衣服 (尺寸: M)",
+            "additionalShirtL": "加購學園祭紀念衣服 (尺寸: L)",
+            "additionalShirtLL": "加購學園祭紀念衣服 (尺寸: LL)",
+            "additionalShirt3L": "加購學園祭紀念衣服 (尺寸: 3L)",
+            "additionalShirt4L": "加購學園祭紀念衣服 (尺寸: 4L)",
+            "additionalShirt5L": "加購學園祭紀念衣服 (尺寸: 5L)",
+            "additionalBand": "加購特別版識別證帶",
+            "additionalPoster": "加購紀念海報",
+            "additionalCardCase": "加購活動識別證套",
+            "additionalYearbook": "加購畢業紀念冊"
+        },
+        "message": {
+            "successTitle": "已完成報名",
+            "successContent": "記得把活動加入行事曆，以免錯過精彩活動",
+            "payTitle": "尚未付款",
+            "payContent1": "您尚未進行付款，請在",
+            "payContent2": "前付款"
+        },
+        "onSiteRegistration": {
+            "title": "現場報名資料",
+            "selectDatesTitle": "選擇日期"
+        },
+        "level": {
+            "itemName": "報名身分",
+            "levelID": "身分 ID",
+            "levelKey": "身分代碼",
+            "levelWeight": "權重",
+            "levelOrder": "排序",
+            "levelPrice": "價格",
+            "levelImageURL": "圖片網址",
+            "levelName": "名稱",
+            "levelLimitCount": "名額限制",
+            "levelInternalLabel": "內部標籤",
+            "levelAdditionalConfig": "其餘設定",
+            "levelIsDonatable": "是否可贊助",
+            "levelHasShirt": "是否有衣服",
+            "levelIsSpecial": "是否為特殊等級",
+            "levelIsHidden": "是否隱藏",
+            "levelIsEnabled": "是否啟用"
+        },
+        "registrationToken": {
+            "itemName": "特殊報名 Token",
+            "registrationTokenID": "特殊報名 Token ID",
+            "registrationToken": "特殊報名 Token"
+        },
+        "registrationUpgrade": {
+            "itemName": "升等資料",
+            "registrationUpgradeID": "升等 ID",
+            "registrationUpgradeAmount": "升等金額",
+            "registrationUpgradeStatus": "升等狀態"
+        },
+        "selectedRolePreview": {
+            "title": "摘要",
+            "seaViewHoneymoonSuite": "海景蜜月套房",
+            "payUponReservation": "訂房時付款",
+            "donation": "額外贊助",
+            "total": "總計"
+        },
+        "selectedRoleDetails": {
+            "title": "詳細資訊"
+        },
+        "registrationAgreements": {
+            "title": "報名須知與條款"
+        }
+    },
+    "registrationCardStatus": {
+        "Unreceived": "未領取",
+        "Received": "已領取",
+        "ReceivedByProxy": "他人代領"
+    },
+    "mails": {
+        "registered": {
+            "subject": "報名成功",
+            "registeredText": "報名成功, {userNickname}",
+            "thanksForRegistered": "感謝報名，我們期待在本屆 {eventName} 見到您。",
+            "registrationData": "報名資料",
+            "emailReason": "你收到這封郵件的原因是這個電子郵件地址請求在 UTFG 報名系統報名{eventName}，如果有任何問題，請與 UTFG 活動官方聯絡。"
+        },
+        "edited": {
+            "subject": "報名資料編輯",
+            "editedText": "報名資料編輯成功, {userNickname}",
+            "thanksForEdited": "您的報名資料已經成功編輯，我們期待在本屆 {eventName} 見到您。",
+            "registrationData": "報名資料",
+            "emailReason": "你收到這封郵件的原因是這個電子郵件地址請求在 UTFG 報名系統修改{eventName}的報名資料，如果有任何問題，請與 UTFG 活動官方聯絡。"
+        },
+        "upgraded": {
+            "subject": "報名等級升級成功",
+            "upgradedText": "報名等級升級成功, {userNickname}",
+            "thanksForUpgraded": "您的報名等級已經成功升級，我們期待在本屆 {eventName} 見到您。",
+            "upgradeData": "升級資料",
+            "originalLevel": "原始身分",
+            "upgradedLevel": "升級身分",
+            "noticeEditSouvenirData": "若您是升級擁有紀念品的身份，請記得至活動報名狀態頁修改紀念品資料，以便準備您的紀念品。",
+            "buttonText": "修改紀念品資料",
+            "buttonInvalid": "如果上方按鈕無法點擊，請複製這個網址到瀏覽器地址列",
+            "emailReason": "你收到這封郵件的原因是這個電子郵件地址請求在 UTFG 報名系統升級{eventName}的報名等級，如果有任何問題，請與 UTFG 活動官方聯絡。"
+        },
+        "checkIn": {
+            "subject": "報到資訊",
+            "title": "以下是您的報到資訊, {userNickname}",
+            "description": "請於抵達報到櫃檯前將螢幕亮度調到最亮，並於櫃檯出示此 QR code，以利現場工作人員掃描。",
+            "qrcode": "報到 QR code",
+            "qrcodeUsage": "請將螢幕亮度調到最亮，以利掃描",
+            "registrationData": "報名資料",
+            "thanksForAttend": "感謝您的參與，希望您在 {eventName} 上玩得愉快！",
+            "viewQRCode": "檢視 QR code",
+            "qrcodeInvalid": "如果 QR code 未正確顯示，請點選按鈕檢視 QR code。",
+            "emailReason": "你收到這封郵件的原因是這個電子郵件地址有報名本屆 {eventName}，如果有任何問題，請與 UTFG 活動官方聯絡。"
+        }
+    }
+}

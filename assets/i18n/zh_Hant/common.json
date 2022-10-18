@@ -1,0 +1,235 @@
+{
+    "systemName": "UTFG 報名系統",
+    "errors": {
+        "unexcepted": "發生未知錯誤，請稍後再試，若依舊發生錯誤請聯絡主辦單位。",
+        "unauthorized": "尚未登入，請先登入後再進行操作。",
+        "insufficientPermission": "權限不足",
+        "internalAuthenticationError": "內部驗證錯誤，請檢查設定是否正確。",
+        "notFound": "找不到此資料，請確定資料是否存在。",
+        "invalidRecaptchaResponse": "機器人驗證未通過，請稍後再試。",
+        "missingInternalLabel": "您尚未擁有權限，因此無法使用此功能。",
+        "eventNotFound": "找不到此活動，請確認後再次嘗試。",
+        "eventArchived": "此活動已經進入封存狀態，資料已無法進行任何更動。",
+        "notRegistered": "您尚未報名活動，請先報名後再進行操作。",
+        "serviceUnavailable": "服務暫時無法使用，請稍後再試。若依舊發生錯誤請聯絡主辦單位。",
+        "imATeapot": "您的帳號觸發系統安全機制。你不該在這裡。 (Server is teapot right now)",
+        "invalidQuizAnswers": "隨機問答答案錯誤，請檢查後再試。",
+        "accountRestricted": "您的帳號已被限制使用此服務，若有疑慮請洽 UTFG 官方",
+        "notFursuiter": "您尚未投稿毛毛名單，請先投稿並等待審核通過後再進行操作。",
+        "paymentServiceUnavailable": "付款服務暫時無法使用，請稍後再試。若依舊發生錯誤請聯絡主辦單位。"
+    },
+    "events": {
+        "UTFG2025": {
+            "title": "UTFG 2025 - 學園祭",
+            "subtitle": "",
+            "registrationToS": "1.報名確認\n • 完成報名後，您將會收到「報名成功通知信」。\n • 若繳費後三日內未收到信件，請立即聯繫工作團隊。\n • 若因未收到信件且未主動聯繫，導致報到時無法確認資料而影響參加資格，主辦單位恕不負責。\n • 三年級參加者報名完成後，無法取消報名或申請退費，請確認後再行報名。\n • 活動現場亦提供單日入場門票，售價為 NTD 800 / 人，其報名資格等同於「一年級生」。\n2.報名資格與聯絡事項\n • 三年級參加者報名完成後，工作人員將透過您提供的電子郵件確認後續事宜，請務必留意信件，以免錯失重要通知。\n • 主辦單位將以 Email 作為主要聯絡方式，包含重要資訊、活動公告及相關通知，請務必確保信箱可正常收信，避免影響您的參加權益。\n3.報名規範與付款注意事項\n • 完成報名即視為同意活動相關規範與條款。\n • 若違反規範，經勸導仍未改善，工作團隊有權取消您的參加資格且不予退費。\n • 信用卡/簽帳卡付款需於報名資料送出後一小時內完成繳費。\n • 轉帳付款需於報名資料送出後三日內完成繳費。\n • 超商付款需於報名資料送出後三日內完成繳費。\n • 海外參加者請使用信用卡/簽帳卡進行付款。\n4.報名系統開放時間\n • 帳號註冊 2025/03/27 (四) 21:00 起。\n • 活動報名 2025/04/01 (二) 21:00 起至 2025/06/08 (日) 23:59 止。\n5.報名資料修改與加購\n • 若需修改報名資料，請於報名截止前，自行登入報名系統進行修改。\n • 若報名完成後需升級報名資格，可至報名系統申請升級，並需額外支付5%手續費。\n • 參加者可於報名期間內自行加購活動紀念品，不會產生額外手續費。\n • 紀念品於活動期間 (7/19.20) 不會進行販售，有意願購買紀念品請於活動報名期間內進行加購。\n • 可加購的紀念品為學園祭紀念衣服、特別版識別證帶、紀念海報、活動識別證套、畢業紀念冊。\n • 紀念品加購不限參加者等級均可加購，每件紀念品最多加購五個。\n6.取消報名與退費規則\n • 三年級參加者完成報名後，無法申請取消報名或退費。\n • 其他報名等級之參加者，若需取消報名，請於 05/18 (日) 23:59 前透過 Email 聯繫 UTFG 工作團隊。\n • 退款機制如下：\n  • 扣除 10% 手續費及 15 元轉帳手續費後，退還剩餘款項。\n  • 2025/05/18 (日) 23:59 後，不接受取消報名及退費申請。\n7.個人資料使用聲明\n • 參加者同意，為維護活動安全與管理需求，主辦單位擁有蒐集、處理及使用個人資料之權利，僅用於活動相關用途。\n8.活動變更權\n • 主辦方保留調整活動規則與變更權利，所有最終決定皆以主辦單位公告為準。\n9.聯繫方式\n • 若有任何問題，請透過官方粉絲專頁或電子郵件 (utfgtw@gmail.com) 與我們聯繫。",
+            "registrationNotice": "請詳閱注意事項，確認報名即代表您已同意相關規範。",
+            "enum": {
+                "additionalShirtS": {
+                    "zero": "不加購",
+                    "one": "加購 1 件衣服 (尺寸: S)",
+                    "two": "加購 2 件衣服 (尺寸: S)",
+                    "three": "加購 3 件衣服 (尺寸: S)",
+                    "four": "加購 4 件衣服 (尺寸: S)",
+                    "five": "加購 5 件衣服 (尺寸: S)"
+                },
+                "additionalShirtM": {
+                    "zero": "不加購",
+                    "one": "加購 1 件衣服 (尺寸: M)",
+                    "two": "加購 2 件衣服 (尺寸: M)",
+                    "three": "加購 3 件衣服 (尺寸: M)",
+                    "four": "加購 4 件衣服 (尺寸: M)",
+                    "five": "加購 5 件衣服 (尺寸: M)"
+                },
+                "additionalShirtL": {
+                    "zero": "不加購",
+                    "one": "加購 1 件衣服 (尺寸: L)",
+                    "two": "加購 2 件衣服 (尺寸: L)",
+                    "three": "加購 3 件衣服 (尺寸: L)",
+                    "four": "加購 4 件衣服 (尺寸: L)",
+                    "five": "加購 5 件衣服 (尺寸: L)"
+                },
+                "additionalShirtLL": {
+                    "zero": "不加購",
+                    "one": "加購 1 件衣服 (尺寸: LL)",
+                    "two": "加購 2 件衣服 (尺寸: LL)",
+                    "three": "加購 3 件衣服 (尺寸: LL)",
+                    "four": "加購 4 件衣服 (尺寸: LL)",
+                    "five": "加購 5 件衣服 (尺寸: LL)"
+                },
+                "additionalShirt3L": {
+                    "zero": "不加購",
+                    "one": "加購 1 件衣服 (尺寸: 3L)",
+                    "two": "加購 2 件衣服 (尺寸: 3L)",
+                    "three": "加購 3 件衣服 (尺寸: 3L)",
+                    "four": "加購 4 件衣服 (尺寸: 3L)",
+                    "five": "加購 5 件衣服 (尺寸: 3L)"
+                },
+                "additionalShirt4L": {
+                    "zero": "不加購",
+                    "one": "加購 1 件衣服 (尺寸: 4L)",
+                    "two": "加購 2 件衣服 (尺寸: 4L)",
+                    "three": "加購 3 件衣服 (尺寸: 4L)",
+                    "four": "加購 4 件衣服 (尺寸: 4L)",
+                    "five": "加購 5 件衣服 (尺寸: 4L)"
+                },
+                "additionalShirt5L": {
+                    "zero": "不加購",
+                    "one": "加購 1 件衣服 (尺寸: 5L)",
+                    "two": "加購 2 件衣服 (尺寸: 5L)",
+                    "three": "加購 3 件衣服 (尺寸: 5L)",
+                    "four": "加購 4 件衣服 (尺寸: 5L)",
+                    "five": "加購 5 件衣服 (尺寸: 5L)"
+                },
+                "additionalBand": {
+                    "zero": "不加購",
+                    "one": "加購 1 條識別證帶",
+                    "two": "加購 2 條識別證帶",
+                    "three": "加購 3 條識別證帶",
+                    "four": "加購 4 條識別證帶",
+                    "five": "加購 5 條識別證帶"
+                },
+                "additionalPoster": {
+                    "zero": "不加購",
+                    "one": "加購 1 張活動海報",
+                    "two": "加購 2 張活動海報",
+                    "three": "加購 3 張活動海報",
+                    "four": "加購 4 張活動海報",
+                    "five": "加購 5 張活動海報"
+                },
+                "additionalCardCase": {
+                    "zero": "不加購",
+                    "one": "加購 1 個識別證套",
+                    "two": "加購 2 個識別證套",
+                    "three": "加購 3 個識別證套",
+                    "four": "加購 4 個識別證套",
+                    "five": "加購 5 個識別證套"
+                },
+                "additionalYearbook": {
+                    "zero": "不加購",
+                    "one": "加購 1 本畢業紀念冊",
+                    "two": "加購 2 本畢業紀念冊",
+                    "three": "加購 3 本畢業紀念冊",
+                    "four": "加購 4 本畢業紀念冊",
+                    "five": "加購 5 本畢業紀念冊"
+                }
+            }
+        }
+    },
+    "levels": {
+        "UTFG2025": {
+            "1st": {
+                "title": "一年級生",
+                "subtitle": "",
+                "description": "",
+                "benefits": "學生證\n識別證帶\n入學須知\n學園祭紀念品"
+            },
+            "2nd": {
+                "title": "二年級生",
+                "subtitle": "",
+                "description": "",
+                "benefits": "學生證 (可自行上傳頭圖)\n特別版識別證帶\n入學須知\n學園祭紀念品\n紀念海報\n畢業紀念冊\n學園祭紀念衣服\n活動識別證套\n學園祭紀念地墊\n學園祭紀念毛毯\n官方活動第二優先入場"
+            },
+            "3rd": {
+                "title": "三年級生",
+                "subtitle": "",
+                "description": "",
+                "benefits": "學生證（可自行上傳頭圖）\n特別版識別證帶\n入學須知\n學園祭紀念品\n紀念海報\n畢業紀念冊\n學園祭紀念衣服\n活動識別證套\n學園祭紀念地墊\n學園祭紀念毛毯\n官方活動最優先入場\n三年級專屬外套\nT.Y.ARASHI 限定角色 YCH（會製作名牌、以及化身現場活動立牌角色）\nAfter Party 門票一張\nAfter Party 親友保留名額一名\n大合照、官方活動最前排保留席\n活動主飯店優先訂房"
+            },
+            "1stSupporter": {
+                "title": "一年級生 (工作人員)",
+                "subtitle": "",
+                "description": "",
+                "benefits": "學生證 (可自行上傳頭圖)\n識別證帶\n入學須知\n學園祭紀念品\n官方活動第二優先入場"
+            },
+            "1stOnsite": {
+                "title": "一年級生 (現場報名)",
+                "subtitle": "",
+                "description": "",
+                "benefits": "學生證\n識別證帶\n入學須知"
+            }
+        }
+    },
+    "actions": {
+        "create": "建立",
+        "read": "讀取",
+        "update": "更新",
+        "delete": "刪除",
+        "cancel": "取消",
+        "confirm": "確認",
+        "close": "關閉",
+        "next": "下一步",
+        "prev": "上一步",
+        "edit": "編輯",
+        "send": "送出",
+        "select": "選擇",
+        "search": "搜尋",
+        "backToMainPage": "回首頁",
+        "back": "返回",
+        "clear": "清除",
+        "view": "查看",
+        "action": "動作",
+        "open": "開啟",
+        "apply": "申請",
+        "add": "新增",
+        "buy": "購買",
+        "doConfirm": "確認選擇這個選項？"
+    },
+    "values": {
+        "none": "沒有報名資料",
+        "noneBuy": "尚未購買",
+        "days": "日",
+        "3days": "三日"
+    },
+    "fields": {
+        "common": {
+            "createdAt": "建立時間",
+            "createdBy": "建立者",
+            "updatedAt": "最後更新時間",
+            "updatedBy": "最後更新者",
+            "deletedAt": "刪除時間",
+            "deletedBy": "刪除者",
+            "expiredAt": "過期時間",
+            "remarks": "備註 (僅供管理員查看)",
+            "status": "狀態",
+            "actions": "動作",
+            "userPermissions": "使用者權限",
+            "qrcode": "QR Code"
+        },
+        "audit": {
+            "itemName": "稽核紀錄",
+            "auditID": "稽核 ID",
+            "auditOperation": "操作",
+            "auditTarget": "目標",
+            "auditTargetID": "目標 ID",
+            "auditDataAfterOperation": "操作後之資料"
+        },
+        "dashboard": {
+            "dashboardTitle": "總覽",
+            "dashboardfielled": "已登記活動"
+        },
+        "pager": {
+            "displaying": "顯示中",
+            "total": "共有",
+            "items": "筆"
+        }
+    },
+    "buttons": {
+        "support": "取得協助",
+        "aboutWebsite": "關於網站",
+        "languages": "語言",
+        "logout": "登出"
+    },
+    "mails": {
+        "common": {
+            "buttonInvalid": "如果上方按鈕無法點擊，請複製這個網址到瀏覽器地址列"
+        }
+    },
+    "messages": {
+        "createSuccessful": "建立成功",
+        "updateSuccessful": "更新成功",
+        "deleteSuccessful": "刪除成功",
+        "pleaseAdjustDeviceBrightness": "請將裝置亮度調整到最大以便於掃描.",
+        "linked": "已連結"
+    }
+}
